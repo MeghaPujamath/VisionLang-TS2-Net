@@ -1,0 +1,2386 @@
+2022-12-09 18:47:54,722:INFO: Effective parameters:
+2022-12-09 18:47:54,723:INFO:   <<< batch_size: 128
+2022-12-09 18:47:54,723:INFO:   <<< batch_size_val: 8
+2022-12-09 18:47:54,723:INFO:   <<< best_ckpt_path: 
+2022-12-09 18:47:54,723:INFO:   <<< cache_dir: 
+2022-12-09 18:47:54,723:INFO:   <<< coef_lr: 0.001
+2022-12-09 18:47:54,723:INFO:   <<< cross_model: cross-base
+2022-12-09 18:47:54,723:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 18:47:54,723:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 18:47:54,723:INFO:   <<< datatype: msrvtt
+2022-12-09 18:47:54,724:INFO:   <<< do_eval: False
+2022-12-09 18:47:54,724:INFO:   <<< do_lower_case: False
+2022-12-09 18:47:54,724:INFO:   <<< do_pretrain: False
+2022-12-09 18:47:54,724:INFO:   <<< do_train: True
+2022-12-09 18:47:54,724:INFO:   <<< epochs: 5
+2022-12-09 18:47:54,724:INFO:   <<< eval_frame_order: 0
+2022-12-09 18:47:54,724:INFO:   <<< eval_in_train: True
+2022-12-09 18:47:54,724:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 18:47:54,724:INFO:   <<< feature_framerate: 1
+2022-12-09 18:47:54,725:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 18:47:54,725:INFO:   <<< fp16: False
+2022-12-09 18:47:54,725:INFO:   <<< fp16_opt_level: O1
+2022-12-09 18:47:54,725:INFO:   <<< freeze_layer_num: 0
+2022-12-09 18:47:54,725:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 18:47:54,725:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 18:47:54,726:INFO:   <<< init_model: None
+2022-12-09 18:47:54,726:INFO:   <<< linear_patch: 2d
+2022-12-09 18:47:54,726:INFO:   <<< local_rank: 0
+2022-12-09 18:47:54,726:INFO:   <<< loose_type: True
+2022-12-09 18:47:54,726:INFO:   <<< lr: 0.0001
+2022-12-09 18:47:54,726:INFO:   <<< lr_decay: 0.9
+2022-12-09 18:47:54,726:INFO:   <<< margin: 0.1
+2022-12-09 18:47:54,726:INFO:   <<< max_frames: 12
+2022-12-09 18:47:54,726:INFO:   <<< max_words: 32
+2022-12-09 18:47:54,726:INFO:   <<< n_display: 50
+2022-12-09 18:47:54,727:INFO:   <<< n_gpu: 1
+2022-12-09 18:47:54,727:INFO:   <<< n_pair: 1
+2022-12-09 18:47:54,727:INFO:   <<< negative_weighting: 1
+2022-12-09 18:47:54,727:INFO:   <<< num_thread_reader: 8
+2022-12-09 18:47:54,727:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 18:47:54,727:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 18:47:54,727:INFO:   <<< rank: 0
+2022-12-09 18:47:54,727:INFO:   <<< sampled_use_mil: False
+2022-12-09 18:47:54,727:INFO:   <<< seed: 42
+2022-12-09 18:47:54,728:INFO:   <<< sim_header: seqTransf
+2022-12-09 18:47:54,728:INFO:   <<< slice_framepos: 2
+2022-12-09 18:47:54,728:INFO:   <<< task_type: retrieval
+2022-12-09 18:47:54,728:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 18:47:54,728:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 18:47:54,728:INFO:   <<< train_frame_order: 0
+2022-12-09 18:47:54,728:INFO:   <<< use_mil: False
+2022-12-09 18:47:54,728:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 18:47:54,729:INFO:   <<< video_dim: 1024
+2022-12-09 18:47:54,729:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 18:47:54,729:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 18:47:54,729:INFO:   <<< world_size: 8
+2022-12-09 18:47:54,729:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 18:48:47,492:INFO: Effective parameters:
+2022-12-09 18:48:47,500:INFO:   <<< batch_size: 128
+2022-12-09 18:48:47,502:INFO:   <<< batch_size_val: 8
+2022-12-09 18:48:47,503:INFO:   <<< best_ckpt_path: 
+2022-12-09 18:48:47,503:INFO:   <<< cache_dir: 
+2022-12-09 18:48:47,503:INFO:   <<< coef_lr: 0.001
+2022-12-09 18:48:47,507:INFO:   <<< cross_model: cross-base
+2022-12-09 18:48:47,515:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 18:48:47,517:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 18:48:47,517:INFO:   <<< datatype: msrvtt
+2022-12-09 18:48:47,528:INFO:   <<< do_eval: False
+2022-12-09 18:48:47,528:INFO:   <<< do_lower_case: False
+2022-12-09 18:48:47,528:INFO:   <<< do_pretrain: False
+2022-12-09 18:48:47,528:INFO:   <<< do_train: True
+2022-12-09 18:48:47,528:INFO:   <<< epochs: 5
+2022-12-09 18:48:47,528:INFO:   <<< eval_frame_order: 0
+2022-12-09 18:48:47,528:INFO:   <<< eval_in_train: True
+2022-12-09 18:48:47,529:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 18:48:47,529:INFO:   <<< feature_framerate: 1
+2022-12-09 18:48:47,529:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 18:48:47,529:INFO:   <<< fp16: False
+2022-12-09 18:48:47,529:INFO:   <<< fp16_opt_level: O1
+2022-12-09 18:48:47,529:INFO:   <<< freeze_layer_num: 0
+2022-12-09 18:48:47,529:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 18:48:47,529:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 18:48:47,529:INFO:   <<< init_model: None
+2022-12-09 18:48:47,530:INFO:   <<< linear_patch: 2d
+2022-12-09 18:48:47,530:INFO:   <<< local_rank: 0
+2022-12-09 18:48:47,530:INFO:   <<< loose_type: True
+2022-12-09 18:48:47,530:INFO:   <<< lr: 0.0001
+2022-12-09 18:48:47,530:INFO:   <<< lr_decay: 0.9
+2022-12-09 18:48:47,530:INFO:   <<< margin: 0.1
+2022-12-09 18:48:47,531:INFO:   <<< max_frames: 12
+2022-12-09 18:48:47,531:INFO:   <<< max_words: 32
+2022-12-09 18:48:47,531:INFO:   <<< n_display: 50
+2022-12-09 18:48:47,531:INFO:   <<< n_gpu: 1
+2022-12-09 18:48:47,531:INFO:   <<< n_pair: 1
+2022-12-09 18:48:47,531:INFO:   <<< negative_weighting: 1
+2022-12-09 18:48:47,531:INFO:   <<< num_thread_reader: 8
+2022-12-09 18:48:47,532:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 18:48:47,532:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 18:48:47,532:INFO:   <<< rank: 0
+2022-12-09 18:48:47,532:INFO:   <<< sampled_use_mil: False
+2022-12-09 18:48:47,532:INFO:   <<< seed: 42
+2022-12-09 18:48:47,532:INFO:   <<< sim_header: seqTransf
+2022-12-09 18:48:47,532:INFO:   <<< slice_framepos: 2
+2022-12-09 18:48:47,532:INFO:   <<< task_type: retrieval
+2022-12-09 18:48:47,536:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 18:48:47,536:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 18:48:47,536:INFO:   <<< train_frame_order: 0
+2022-12-09 18:48:47,536:INFO:   <<< use_mil: False
+2022-12-09 18:48:47,536:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 18:48:47,536:INFO:   <<< video_dim: 1024
+2022-12-09 18:48:47,536:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 18:48:47,537:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 18:48:47,537:INFO:   <<< world_size: 8
+2022-12-09 18:48:47,537:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 18:51:10,217:INFO: Effective parameters:
+2022-12-09 18:51:10,217:INFO:   <<< batch_size: 128
+2022-12-09 18:51:10,217:INFO:   <<< batch_size_val: 8
+2022-12-09 18:51:10,217:INFO:   <<< best_ckpt_path: 
+2022-12-09 18:51:10,217:INFO:   <<< cache_dir: 
+2022-12-09 18:51:10,217:INFO:   <<< coef_lr: 0.001
+2022-12-09 18:51:10,217:INFO:   <<< cross_model: cross-base
+2022-12-09 18:51:10,217:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 18:51:10,218:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 18:51:10,218:INFO:   <<< datatype: msrvtt
+2022-12-09 18:51:10,218:INFO:   <<< do_eval: False
+2022-12-09 18:51:10,218:INFO:   <<< do_lower_case: False
+2022-12-09 18:51:10,218:INFO:   <<< do_pretrain: False
+2022-12-09 18:51:10,218:INFO:   <<< do_train: True
+2022-12-09 18:51:10,218:INFO:   <<< epochs: 5
+2022-12-09 18:51:10,218:INFO:   <<< eval_frame_order: 0
+2022-12-09 18:51:10,218:INFO:   <<< eval_in_train: True
+2022-12-09 18:51:10,219:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 18:51:10,219:INFO:   <<< feature_framerate: 1
+2022-12-09 18:51:10,219:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 18:51:10,219:INFO:   <<< fp16: False
+2022-12-09 18:51:10,219:INFO:   <<< fp16_opt_level: O1
+2022-12-09 18:51:10,219:INFO:   <<< freeze_layer_num: 0
+2022-12-09 18:51:10,219:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 18:51:10,219:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 18:51:10,219:INFO:   <<< init_model: None
+2022-12-09 18:51:10,220:INFO:   <<< linear_patch: 2d
+2022-12-09 18:51:10,220:INFO:   <<< local_rank: 0
+2022-12-09 18:51:10,220:INFO:   <<< loose_type: True
+2022-12-09 18:51:10,220:INFO:   <<< lr: 0.0001
+2022-12-09 18:51:10,220:INFO:   <<< lr_decay: 0.9
+2022-12-09 18:51:10,220:INFO:   <<< margin: 0.1
+2022-12-09 18:51:10,220:INFO:   <<< max_frames: 12
+2022-12-09 18:51:10,220:INFO:   <<< max_words: 32
+2022-12-09 18:51:10,220:INFO:   <<< n_display: 50
+2022-12-09 18:51:10,221:INFO:   <<< n_gpu: 1
+2022-12-09 18:51:10,221:INFO:   <<< n_pair: 1
+2022-12-09 18:51:10,221:INFO:   <<< negative_weighting: 1
+2022-12-09 18:51:10,221:INFO:   <<< num_thread_reader: 2
+2022-12-09 18:51:10,221:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 18:51:10,221:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 18:51:10,221:INFO:   <<< rank: 0
+2022-12-09 18:51:10,221:INFO:   <<< sampled_use_mil: False
+2022-12-09 18:51:10,221:INFO:   <<< seed: 42
+2022-12-09 18:51:10,222:INFO:   <<< sim_header: seqTransf
+2022-12-09 18:51:10,222:INFO:   <<< slice_framepos: 2
+2022-12-09 18:51:10,222:INFO:   <<< task_type: retrieval
+2022-12-09 18:51:10,222:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 18:51:10,222:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 18:51:10,222:INFO:   <<< train_frame_order: 0
+2022-12-09 18:51:10,222:INFO:   <<< use_mil: False
+2022-12-09 18:51:10,222:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 18:51:10,222:INFO:   <<< video_dim: 1024
+2022-12-09 18:51:10,223:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 18:51:10,223:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 18:51:10,223:INFO:   <<< world_size: 2
+2022-12-09 18:51:10,223:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 18:51:11,229:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 18:51:11,229:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 18:51:11,230:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 18:51:11,230:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 18:51:11,230:WARNING: Test retrieval by loose type.
+2022-12-09 18:51:11,230:WARNING: 	 embed_dim: 512
+2022-12-09 18:51:11,230:WARNING: 	 image_resolution: 224
+2022-12-09 18:51:11,231:WARNING: 	 vision_layers: 12
+2022-12-09 18:51:11,231:WARNING: 	 vision_width: 768
+2022-12-09 18:51:11,231:WARNING: 	 vision_patch_size: 32
+2022-12-09 18:51:11,231:WARNING: 	 context_length: 77
+2022-12-09 18:51:11,231:WARNING: 	 vocab_size: 49408
+2022-12-09 18:51:11,231:WARNING: 	 transformer_width: 512
+2022-12-09 18:51:11,231:WARNING: 	 transformer_heads: 8
+2022-12-09 18:51:11,231:WARNING: 	 transformer_layers: 12
+2022-12-09 18:51:11,231:WARNING: 		 linear_patch: 2d
+2022-12-09 18:51:11,231:WARNING: 	 cut_top_layer: 0
+2022-12-09 18:51:13,266:WARNING: 	 sim_header: seqTransf
+2022-12-09 18:57:48,191:INFO: Effective parameters:
+2022-12-09 18:57:48,191:INFO:   <<< batch_size: 128
+2022-12-09 18:57:48,191:INFO:   <<< batch_size_val: 8
+2022-12-09 18:57:48,191:INFO:   <<< best_ckpt_path: 
+2022-12-09 18:57:48,191:INFO:   <<< cache_dir: 
+2022-12-09 18:57:48,191:INFO:   <<< coef_lr: 0.001
+2022-12-09 18:57:48,192:INFO:   <<< cross_model: cross-base
+2022-12-09 18:57:48,192:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 18:57:48,192:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 18:57:48,192:INFO:   <<< datatype: msrvtt
+2022-12-09 18:57:48,192:INFO:   <<< do_eval: False
+2022-12-09 18:57:48,192:INFO:   <<< do_lower_case: False
+2022-12-09 18:57:48,192:INFO:   <<< do_pretrain: False
+2022-12-09 18:57:48,192:INFO:   <<< do_train: True
+2022-12-09 18:57:48,192:INFO:   <<< epochs: 5
+2022-12-09 18:57:48,192:INFO:   <<< eval_frame_order: 0
+2022-12-09 18:57:48,193:INFO:   <<< eval_in_train: True
+2022-12-09 18:57:48,193:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 18:57:48,193:INFO:   <<< feature_framerate: 1
+2022-12-09 18:57:48,193:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 18:57:48,193:INFO:   <<< fp16: False
+2022-12-09 18:57:48,193:INFO:   <<< fp16_opt_level: O1
+2022-12-09 18:57:48,193:INFO:   <<< freeze_layer_num: 0
+2022-12-09 18:57:48,193:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 18:57:48,193:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 18:57:48,194:INFO:   <<< init_model: None
+2022-12-09 18:57:48,194:INFO:   <<< linear_patch: 2d
+2022-12-09 18:57:48,194:INFO:   <<< local_rank: 0
+2022-12-09 18:57:48,194:INFO:   <<< loose_type: True
+2022-12-09 18:57:48,194:INFO:   <<< lr: 0.0001
+2022-12-09 18:57:48,194:INFO:   <<< lr_decay: 0.9
+2022-12-09 18:57:48,194:INFO:   <<< margin: 0.1
+2022-12-09 18:57:48,194:INFO:   <<< max_frames: 12
+2022-12-09 18:57:48,194:INFO:   <<< max_words: 32
+2022-12-09 18:57:48,195:INFO:   <<< n_display: 50
+2022-12-09 18:57:48,195:INFO:   <<< n_gpu: 1
+2022-12-09 18:57:48,195:INFO:   <<< n_pair: 1
+2022-12-09 18:57:48,195:INFO:   <<< negative_weighting: 1
+2022-12-09 18:57:48,195:INFO:   <<< num_thread_reader: 2
+2022-12-09 18:57:48,195:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 18:57:48,195:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 18:57:48,195:INFO:   <<< rank: 0
+2022-12-09 18:57:48,195:INFO:   <<< sampled_use_mil: False
+2022-12-09 18:57:48,196:INFO:   <<< seed: 42
+2022-12-09 18:57:48,196:INFO:   <<< sim_header: seqTransf
+2022-12-09 18:57:48,196:INFO:   <<< slice_framepos: 2
+2022-12-09 18:57:48,196:INFO:   <<< task_type: retrieval
+2022-12-09 18:57:48,196:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 18:57:48,196:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 18:57:48,196:INFO:   <<< train_frame_order: 0
+2022-12-09 18:57:48,196:INFO:   <<< use_mil: False
+2022-12-09 18:57:48,196:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 18:57:48,197:INFO:   <<< video_dim: 1024
+2022-12-09 18:57:48,197:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 18:57:48,197:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 18:57:48,197:INFO:   <<< world_size: 2
+2022-12-09 18:57:48,197:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 18:57:49,224:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 18:57:49,224:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 18:57:49,224:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 18:57:49,225:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 18:57:49,225:WARNING: Test retrieval by loose type.
+2022-12-09 18:57:49,225:WARNING: 	 embed_dim: 512
+2022-12-09 18:57:49,225:WARNING: 	 image_resolution: 224
+2022-12-09 18:57:49,225:WARNING: 	 vision_layers: 12
+2022-12-09 18:57:49,225:WARNING: 	 vision_width: 768
+2022-12-09 18:57:49,225:WARNING: 	 vision_patch_size: 32
+2022-12-09 18:57:49,226:WARNING: 	 context_length: 77
+2022-12-09 18:57:49,226:WARNING: 	 vocab_size: 49408
+2022-12-09 18:57:49,226:WARNING: 	 transformer_width: 512
+2022-12-09 18:57:49,226:WARNING: 	 transformer_heads: 8
+2022-12-09 18:57:49,226:WARNING: 	 transformer_layers: 12
+2022-12-09 18:57:49,226:WARNING: 		 linear_patch: 2d
+2022-12-09 18:57:49,226:WARNING: 	 cut_top_layer: 0
+2022-12-09 18:57:51,265:WARNING: 	 sim_header: seqTransf
+2022-12-09 19:10:20,475:INFO: Effective parameters:
+2022-12-09 19:10:20,476:INFO:   <<< batch_size: 128
+2022-12-09 19:10:20,476:INFO:   <<< batch_size_val: 8
+2022-12-09 19:10:20,476:INFO:   <<< best_ckpt_path: 
+2022-12-09 19:10:20,476:INFO:   <<< cache_dir: 
+2022-12-09 19:10:20,476:INFO:   <<< coef_lr: 0.001
+2022-12-09 19:10:20,476:INFO:   <<< cross_model: cross-base
+2022-12-09 19:10:20,477:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 19:10:20,477:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 19:10:20,477:INFO:   <<< datatype: msrvtt
+2022-12-09 19:10:20,477:INFO:   <<< do_eval: False
+2022-12-09 19:10:20,477:INFO:   <<< do_lower_case: False
+2022-12-09 19:10:20,477:INFO:   <<< do_pretrain: False
+2022-12-09 19:10:20,477:INFO:   <<< do_train: True
+2022-12-09 19:10:20,477:INFO:   <<< epochs: 5
+2022-12-09 19:10:20,477:INFO:   <<< eval_frame_order: 0
+2022-12-09 19:10:20,478:INFO:   <<< eval_in_train: True
+2022-12-09 19:10:20,478:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 19:10:20,478:INFO:   <<< feature_framerate: 1
+2022-12-09 19:10:20,478:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 19:10:20,478:INFO:   <<< fp16: False
+2022-12-09 19:10:20,478:INFO:   <<< fp16_opt_level: O1
+2022-12-09 19:10:20,478:INFO:   <<< freeze_layer_num: 0
+2022-12-09 19:10:20,478:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 19:10:20,478:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 19:10:20,478:INFO:   <<< init_model: None
+2022-12-09 19:10:20,479:INFO:   <<< linear_patch: 2d
+2022-12-09 19:10:20,479:INFO:   <<< local_rank: 0
+2022-12-09 19:10:20,479:INFO:   <<< loose_type: True
+2022-12-09 19:10:20,479:INFO:   <<< lr: 0.0001
+2022-12-09 19:10:20,479:INFO:   <<< lr_decay: 0.9
+2022-12-09 19:10:20,479:INFO:   <<< margin: 0.1
+2022-12-09 19:10:20,479:INFO:   <<< max_frames: 12
+2022-12-09 19:10:20,479:INFO:   <<< max_words: 32
+2022-12-09 19:10:20,479:INFO:   <<< n_display: 50
+2022-12-09 19:10:20,479:INFO:   <<< n_gpu: 1
+2022-12-09 19:10:20,480:INFO:   <<< n_pair: 1
+2022-12-09 19:10:20,480:INFO:   <<< negative_weighting: 1
+2022-12-09 19:10:20,480:INFO:   <<< num_thread_reader: 2
+2022-12-09 19:10:20,480:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 19:10:20,480:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 19:10:20,480:INFO:   <<< rank: 0
+2022-12-09 19:10:20,480:INFO:   <<< sampled_use_mil: False
+2022-12-09 19:10:20,480:INFO:   <<< seed: 42
+2022-12-09 19:10:20,480:INFO:   <<< sim_header: seqTransf
+2022-12-09 19:10:20,481:INFO:   <<< slice_framepos: 2
+2022-12-09 19:10:20,481:INFO:   <<< task_type: retrieval
+2022-12-09 19:10:20,481:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 19:10:20,481:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 19:10:20,481:INFO:   <<< train_frame_order: 0
+2022-12-09 19:10:20,481:INFO:   <<< use_mil: False
+2022-12-09 19:10:20,481:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 19:10:20,481:INFO:   <<< video_dim: 1024
+2022-12-09 19:10:20,481:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 19:10:20,481:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 19:10:20,482:INFO:   <<< world_size: 2
+2022-12-09 19:10:20,482:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 19:10:21,497:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 19:10:21,497:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 19:10:21,497:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 19:10:21,497:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 19:10:21,497:WARNING: Test retrieval by loose type.
+2022-12-09 19:10:21,498:WARNING: 	 embed_dim: 512
+2022-12-09 19:10:21,498:WARNING: 	 image_resolution: 224
+2022-12-09 19:10:21,498:WARNING: 	 vision_layers: 12
+2022-12-09 19:10:21,498:WARNING: 	 vision_width: 768
+2022-12-09 19:10:21,498:WARNING: 	 vision_patch_size: 32
+2022-12-09 19:10:21,498:WARNING: 	 context_length: 77
+2022-12-09 19:10:21,498:WARNING: 	 vocab_size: 49408
+2022-12-09 19:10:21,498:WARNING: 	 transformer_width: 512
+2022-12-09 19:10:21,499:WARNING: 	 transformer_heads: 8
+2022-12-09 19:10:21,499:WARNING: 	 transformer_layers: 12
+2022-12-09 19:10:21,499:WARNING: 		 linear_patch: 2d
+2022-12-09 19:10:21,499:WARNING: 	 cut_top_layer: 0
+2022-12-09 19:10:23,538:WARNING: 	 sim_header: seqTransf
+2022-12-09 19:25:17,878:INFO: Effective parameters:
+2022-12-09 19:25:17,880:INFO:   <<< batch_size: 128
+2022-12-09 19:25:17,880:INFO:   <<< batch_size_val: 8
+2022-12-09 19:25:17,880:INFO:   <<< best_ckpt_path: 
+2022-12-09 19:25:17,880:INFO:   <<< cache_dir: 
+2022-12-09 19:25:17,880:INFO:   <<< coef_lr: 0.001
+2022-12-09 19:25:17,880:INFO:   <<< cross_model: cross-base
+2022-12-09 19:25:17,880:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 19:25:17,880:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 19:25:17,880:INFO:   <<< datatype: msrvtt
+2022-12-09 19:25:17,880:INFO:   <<< do_eval: False
+2022-12-09 19:25:17,880:INFO:   <<< do_lower_case: False
+2022-12-09 19:25:17,881:INFO:   <<< do_pretrain: False
+2022-12-09 19:25:17,881:INFO:   <<< do_train: True
+2022-12-09 19:25:17,881:INFO:   <<< epochs: 5
+2022-12-09 19:25:17,881:INFO:   <<< eval_frame_order: 0
+2022-12-09 19:25:17,881:INFO:   <<< eval_in_train: True
+2022-12-09 19:25:17,881:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 19:25:17,881:INFO:   <<< feature_framerate: 1
+2022-12-09 19:25:17,881:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 19:25:17,881:INFO:   <<< fp16: False
+2022-12-09 19:25:17,881:INFO:   <<< fp16_opt_level: O1
+2022-12-09 19:25:17,881:INFO:   <<< freeze_layer_num: 0
+2022-12-09 19:25:17,882:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 19:25:17,882:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 19:25:17,882:INFO:   <<< init_model: None
+2022-12-09 19:25:17,882:INFO:   <<< linear_patch: 2d
+2022-12-09 19:25:17,882:INFO:   <<< local_rank: 0
+2022-12-09 19:25:17,882:INFO:   <<< loose_type: True
+2022-12-09 19:25:17,882:INFO:   <<< lr: 0.0001
+2022-12-09 19:25:17,882:INFO:   <<< lr_decay: 0.9
+2022-12-09 19:25:17,882:INFO:   <<< margin: 0.1
+2022-12-09 19:25:17,882:INFO:   <<< max_frames: 12
+2022-12-09 19:25:17,882:INFO:   <<< max_words: 32
+2022-12-09 19:25:17,882:INFO:   <<< n_display: 50
+2022-12-09 19:25:17,883:INFO:   <<< n_gpu: 1
+2022-12-09 19:25:17,883:INFO:   <<< n_pair: 1
+2022-12-09 19:25:17,883:INFO:   <<< negative_weighting: 1
+2022-12-09 19:25:17,883:INFO:   <<< num_thread_reader: 2
+2022-12-09 19:25:17,883:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 19:25:17,883:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 19:25:17,883:INFO:   <<< rank: 0
+2022-12-09 19:25:17,883:INFO:   <<< sampled_use_mil: False
+2022-12-09 19:25:17,883:INFO:   <<< seed: 42
+2022-12-09 19:25:17,883:INFO:   <<< sim_header: seqTransf
+2022-12-09 19:25:17,883:INFO:   <<< slice_framepos: 2
+2022-12-09 19:25:17,883:INFO:   <<< task_type: retrieval
+2022-12-09 19:25:17,884:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 19:25:17,884:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 19:25:17,884:INFO:   <<< train_frame_order: 0
+2022-12-09 19:25:17,884:INFO:   <<< use_mil: False
+2022-12-09 19:25:17,884:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 19:25:17,884:INFO:   <<< video_dim: 1024
+2022-12-09 19:25:17,884:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 19:25:17,884:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 19:25:17,884:INFO:   <<< world_size: 2
+2022-12-09 19:25:17,884:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 19:33:05,322:INFO: Effective parameters:
+2022-12-09 19:33:05,322:INFO:   <<< batch_size: 128
+2022-12-09 19:33:05,322:INFO:   <<< batch_size_val: 8
+2022-12-09 19:33:05,322:INFO:   <<< best_ckpt_path: 
+2022-12-09 19:33:05,322:INFO:   <<< cache_dir: 
+2022-12-09 19:33:05,322:INFO:   <<< coef_lr: 0.001
+2022-12-09 19:33:05,322:INFO:   <<< cross_model: cross-base
+2022-12-09 19:33:05,322:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 19:33:05,322:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 19:33:05,323:INFO:   <<< datatype: msrvtt
+2022-12-09 19:33:05,323:INFO:   <<< do_eval: False
+2022-12-09 19:33:05,323:INFO:   <<< do_lower_case: False
+2022-12-09 19:33:05,323:INFO:   <<< do_pretrain: False
+2022-12-09 19:33:05,323:INFO:   <<< do_train: True
+2022-12-09 19:33:05,323:INFO:   <<< epochs: 5
+2022-12-09 19:33:05,323:INFO:   <<< eval_frame_order: 0
+2022-12-09 19:33:05,323:INFO:   <<< eval_in_train: True
+2022-12-09 19:33:05,323:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 19:33:05,323:INFO:   <<< feature_framerate: 1
+2022-12-09 19:33:05,323:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 19:33:05,323:INFO:   <<< fp16: False
+2022-12-09 19:33:05,323:INFO:   <<< fp16_opt_level: O1
+2022-12-09 19:33:05,324:INFO:   <<< freeze_layer_num: 0
+2022-12-09 19:33:05,324:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 19:33:05,324:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 19:33:05,324:INFO:   <<< init_model: None
+2022-12-09 19:33:05,324:INFO:   <<< linear_patch: 2d
+2022-12-09 19:33:05,324:INFO:   <<< local_rank: 0
+2022-12-09 19:33:05,324:INFO:   <<< loose_type: True
+2022-12-09 19:33:05,324:INFO:   <<< lr: 0.0001
+2022-12-09 19:33:05,324:INFO:   <<< lr_decay: 0.9
+2022-12-09 19:33:05,324:INFO:   <<< margin: 0.1
+2022-12-09 19:33:05,324:INFO:   <<< max_frames: 12
+2022-12-09 19:33:05,324:INFO:   <<< max_words: 32
+2022-12-09 19:33:05,324:INFO:   <<< n_display: 50
+2022-12-09 19:33:05,325:INFO:   <<< n_gpu: 1
+2022-12-09 19:33:05,325:INFO:   <<< n_pair: 1
+2022-12-09 19:33:05,325:INFO:   <<< negative_weighting: 1
+2022-12-09 19:33:05,325:INFO:   <<< num_thread_reader: 2
+2022-12-09 19:33:05,325:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 19:33:05,325:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 19:33:05,325:INFO:   <<< rank: 0
+2022-12-09 19:33:05,325:INFO:   <<< sampled_use_mil: False
+2022-12-09 19:33:05,325:INFO:   <<< seed: 42
+2022-12-09 19:33:05,325:INFO:   <<< sim_header: seqTransf
+2022-12-09 19:33:05,325:INFO:   <<< slice_framepos: 2
+2022-12-09 19:33:05,325:INFO:   <<< task_type: retrieval
+2022-12-09 19:33:05,325:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 19:33:05,326:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 19:33:05,326:INFO:   <<< train_frame_order: 0
+2022-12-09 19:33:05,326:INFO:   <<< use_mil: False
+2022-12-09 19:33:05,326:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 19:33:05,326:INFO:   <<< video_dim: 1024
+2022-12-09 19:33:05,326:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 19:33:05,326:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 19:33:05,326:INFO:   <<< world_size: 2
+2022-12-09 19:33:05,326:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 19:33:07,005:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 19:33:07,007:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 19:33:07,007:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 19:33:07,007:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 19:33:07,007:WARNING: Test retrieval by loose type.
+2022-12-09 19:33:07,008:WARNING: 	 embed_dim: 512
+2022-12-09 19:33:07,008:WARNING: 	 image_resolution: 224
+2022-12-09 19:33:07,008:WARNING: 	 vision_layers: 12
+2022-12-09 19:33:07,008:WARNING: 	 vision_width: 768
+2022-12-09 19:33:07,008:WARNING: 	 vision_patch_size: 32
+2022-12-09 19:33:07,008:WARNING: 	 context_length: 77
+2022-12-09 19:33:07,008:WARNING: 	 vocab_size: 49408
+2022-12-09 19:33:07,008:WARNING: 	 transformer_width: 512
+2022-12-09 19:33:07,008:WARNING: 	 transformer_heads: 8
+2022-12-09 19:33:07,008:WARNING: 	 transformer_layers: 12
+2022-12-09 19:33:07,009:WARNING: 		 linear_patch: 2d
+2022-12-09 19:33:07,009:WARNING: 	 cut_top_layer: 0
+2022-12-09 22:18:45,133:INFO: Effective parameters:
+2022-12-09 22:18:45,135:INFO:   <<< batch_size: 128
+2022-12-09 22:18:45,135:INFO:   <<< batch_size_val: 8
+2022-12-09 22:18:45,136:INFO:   <<< best_ckpt_path: 
+2022-12-09 22:18:45,136:INFO:   <<< cache_dir: 
+2022-12-09 22:18:45,136:INFO:   <<< coef_lr: 0.001
+2022-12-09 22:18:45,136:INFO:   <<< cross_model: cross-base
+2022-12-09 22:18:45,136:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 22:18:45,136:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 22:18:45,136:INFO:   <<< datatype: msrvtt
+2022-12-09 22:18:45,136:INFO:   <<< do_eval: False
+2022-12-09 22:18:45,136:INFO:   <<< do_lower_case: False
+2022-12-09 22:18:45,136:INFO:   <<< do_pretrain: False
+2022-12-09 22:18:45,137:INFO:   <<< do_train: True
+2022-12-09 22:18:45,137:INFO:   <<< epochs: 5
+2022-12-09 22:18:45,137:INFO:   <<< eval_frame_order: 0
+2022-12-09 22:18:45,137:INFO:   <<< eval_in_train: True
+2022-12-09 22:18:45,137:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 22:18:45,137:INFO:   <<< feature_framerate: 1
+2022-12-09 22:18:45,137:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 22:18:45,137:INFO:   <<< fp16: False
+2022-12-09 22:18:45,137:INFO:   <<< fp16_opt_level: O1
+2022-12-09 22:18:45,137:INFO:   <<< freeze_layer_num: 0
+2022-12-09 22:18:45,137:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 22:18:45,138:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 22:18:45,138:INFO:   <<< init_model: None
+2022-12-09 22:18:45,138:INFO:   <<< linear_patch: 2d
+2022-12-09 22:18:45,138:INFO:   <<< local_rank: 0
+2022-12-09 22:18:45,138:INFO:   <<< loose_type: True
+2022-12-09 22:18:45,138:INFO:   <<< lr: 0.0001
+2022-12-09 22:18:45,138:INFO:   <<< lr_decay: 0.9
+2022-12-09 22:18:45,138:INFO:   <<< margin: 0.1
+2022-12-09 22:18:45,138:INFO:   <<< max_frames: 12
+2022-12-09 22:18:45,138:INFO:   <<< max_words: 32
+2022-12-09 22:18:45,138:INFO:   <<< n_display: 50
+2022-12-09 22:18:45,139:INFO:   <<< n_gpu: 1
+2022-12-09 22:18:45,139:INFO:   <<< n_pair: 1
+2022-12-09 22:18:45,139:INFO:   <<< negative_weighting: 1
+2022-12-09 22:18:45,139:INFO:   <<< num_thread_reader: 2
+2022-12-09 22:18:45,139:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 22:18:45,139:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 22:18:45,139:INFO:   <<< rank: 0
+2022-12-09 22:18:45,139:INFO:   <<< sampled_use_mil: False
+2022-12-09 22:18:45,139:INFO:   <<< seed: 42
+2022-12-09 22:18:45,139:INFO:   <<< sim_header: seqTransf
+2022-12-09 22:18:45,140:INFO:   <<< slice_framepos: 2
+2022-12-09 22:18:45,140:INFO:   <<< task_type: retrieval
+2022-12-09 22:18:45,140:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 22:18:45,140:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 22:18:45,140:INFO:   <<< train_frame_order: 0
+2022-12-09 22:18:45,140:INFO:   <<< use_mil: False
+2022-12-09 22:18:45,140:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 22:18:45,140:INFO:   <<< video_dim: 1024
+2022-12-09 22:18:45,140:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 22:18:45,140:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 22:18:45,140:INFO:   <<< world_size: 2
+2022-12-09 22:18:45,141:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 22:24:52,718:INFO: Effective parameters:
+2022-12-09 22:24:52,718:INFO:   <<< batch_size: 128
+2022-12-09 22:24:52,718:INFO:   <<< batch_size_val: 8
+2022-12-09 22:24:52,718:INFO:   <<< best_ckpt_path: 
+2022-12-09 22:24:52,718:INFO:   <<< cache_dir: 
+2022-12-09 22:24:52,718:INFO:   <<< coef_lr: 0.001
+2022-12-09 22:24:52,718:INFO:   <<< cross_model: cross-base
+2022-12-09 22:24:52,718:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 22:24:52,718:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 22:24:52,719:INFO:   <<< datatype: msrvtt
+2022-12-09 22:24:52,719:INFO:   <<< do_eval: False
+2022-12-09 22:24:52,719:INFO:   <<< do_lower_case: False
+2022-12-09 22:24:52,719:INFO:   <<< do_pretrain: False
+2022-12-09 22:24:52,719:INFO:   <<< do_train: True
+2022-12-09 22:24:52,719:INFO:   <<< epochs: 5
+2022-12-09 22:24:52,719:INFO:   <<< eval_frame_order: 0
+2022-12-09 22:24:52,719:INFO:   <<< eval_in_train: True
+2022-12-09 22:24:52,719:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 22:24:52,719:INFO:   <<< feature_framerate: 1
+2022-12-09 22:24:52,719:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 22:24:52,719:INFO:   <<< fp16: False
+2022-12-09 22:24:52,719:INFO:   <<< fp16_opt_level: O1
+2022-12-09 22:24:52,720:INFO:   <<< freeze_layer_num: 0
+2022-12-09 22:24:52,720:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 22:24:52,720:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 22:24:52,720:INFO:   <<< init_model: None
+2022-12-09 22:24:52,720:INFO:   <<< linear_patch: 2d
+2022-12-09 22:24:52,720:INFO:   <<< local_rank: 0
+2022-12-09 22:24:52,720:INFO:   <<< loose_type: True
+2022-12-09 22:24:52,720:INFO:   <<< lr: 0.0001
+2022-12-09 22:24:52,720:INFO:   <<< lr_decay: 0.9
+2022-12-09 22:24:52,720:INFO:   <<< margin: 0.1
+2022-12-09 22:24:52,720:INFO:   <<< max_frames: 12
+2022-12-09 22:24:52,720:INFO:   <<< max_words: 32
+2022-12-09 22:24:52,720:INFO:   <<< n_display: 50
+2022-12-09 22:24:52,721:INFO:   <<< n_gpu: 1
+2022-12-09 22:24:52,721:INFO:   <<< n_pair: 1
+2022-12-09 22:24:52,721:INFO:   <<< negative_weighting: 1
+2022-12-09 22:24:52,721:INFO:   <<< num_thread_reader: 2
+2022-12-09 22:24:52,721:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 22:24:52,721:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 22:24:52,721:INFO:   <<< rank: 0
+2022-12-09 22:24:52,721:INFO:   <<< sampled_use_mil: False
+2022-12-09 22:24:52,721:INFO:   <<< seed: 42
+2022-12-09 22:24:52,721:INFO:   <<< sim_header: seqTransf
+2022-12-09 22:24:52,721:INFO:   <<< slice_framepos: 2
+2022-12-09 22:24:52,721:INFO:   <<< task_type: retrieval
+2022-12-09 22:24:52,721:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 22:24:52,722:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 22:24:52,722:INFO:   <<< train_frame_order: 0
+2022-12-09 22:24:52,722:INFO:   <<< use_mil: False
+2022-12-09 22:24:52,722:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 22:24:52,722:INFO:   <<< video_dim: 1024
+2022-12-09 22:24:52,722:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 22:24:52,722:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 22:24:52,722:INFO:   <<< world_size: 2
+2022-12-09 22:24:52,722:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 22:24:54,458:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 22:24:54,460:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 22:24:54,460:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 22:24:54,460:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 22:24:54,460:WARNING: Test retrieval by loose type.
+2022-12-09 22:24:54,461:WARNING: 	 embed_dim: 512
+2022-12-09 22:24:54,461:WARNING: 	 image_resolution: 224
+2022-12-09 22:24:54,461:WARNING: 	 vision_layers: 12
+2022-12-09 22:24:54,461:WARNING: 	 vision_width: 768
+2022-12-09 22:24:54,461:WARNING: 	 vision_patch_size: 32
+2022-12-09 22:24:54,461:WARNING: 	 context_length: 77
+2022-12-09 22:24:54,461:WARNING: 	 vocab_size: 49408
+2022-12-09 22:24:54,461:WARNING: 	 transformer_width: 512
+2022-12-09 22:24:54,462:WARNING: 	 transformer_heads: 8
+2022-12-09 22:24:54,462:WARNING: 	 transformer_layers: 12
+2022-12-09 22:24:54,462:WARNING: 		 linear_patch: 2d
+2022-12-09 22:24:54,462:WARNING: 	 cut_top_layer: 0
+2022-12-09 22:29:35,610:INFO: Effective parameters:
+2022-12-09 22:29:35,610:INFO:   <<< batch_size: 128
+2022-12-09 22:29:35,611:INFO:   <<< batch_size_val: 8
+2022-12-09 22:29:35,611:INFO:   <<< best_ckpt_path: 
+2022-12-09 22:29:35,611:INFO:   <<< cache_dir: 
+2022-12-09 22:29:35,611:INFO:   <<< coef_lr: 0.001
+2022-12-09 22:29:35,611:INFO:   <<< cross_model: cross-base
+2022-12-09 22:29:35,611:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 22:29:35,611:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 22:29:35,611:INFO:   <<< datatype: msrvtt
+2022-12-09 22:29:35,611:INFO:   <<< do_eval: False
+2022-12-09 22:29:35,611:INFO:   <<< do_lower_case: False
+2022-12-09 22:29:35,612:INFO:   <<< do_pretrain: False
+2022-12-09 22:29:35,612:INFO:   <<< do_train: True
+2022-12-09 22:29:35,612:INFO:   <<< epochs: 5
+2022-12-09 22:29:35,612:INFO:   <<< eval_frame_order: 0
+2022-12-09 22:29:35,612:INFO:   <<< eval_in_train: True
+2022-12-09 22:29:35,612:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 22:29:35,612:INFO:   <<< feature_framerate: 1
+2022-12-09 22:29:35,612:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 22:29:35,612:INFO:   <<< fp16: False
+2022-12-09 22:29:35,612:INFO:   <<< fp16_opt_level: O1
+2022-12-09 22:29:35,612:INFO:   <<< freeze_layer_num: 0
+2022-12-09 22:29:35,612:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 22:29:35,613:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 22:29:35,613:INFO:   <<< init_model: None
+2022-12-09 22:29:35,613:INFO:   <<< linear_patch: 2d
+2022-12-09 22:29:35,613:INFO:   <<< local_rank: 0
+2022-12-09 22:29:35,613:INFO:   <<< loose_type: True
+2022-12-09 22:29:35,613:INFO:   <<< lr: 0.0001
+2022-12-09 22:29:35,613:INFO:   <<< lr_decay: 0.9
+2022-12-09 22:29:35,613:INFO:   <<< margin: 0.1
+2022-12-09 22:29:35,613:INFO:   <<< max_frames: 12
+2022-12-09 22:29:35,613:INFO:   <<< max_words: 32
+2022-12-09 22:29:35,613:INFO:   <<< n_display: 50
+2022-12-09 22:29:35,613:INFO:   <<< n_gpu: 1
+2022-12-09 22:29:35,613:INFO:   <<< n_pair: 1
+2022-12-09 22:29:35,614:INFO:   <<< negative_weighting: 1
+2022-12-09 22:29:35,614:INFO:   <<< num_thread_reader: 2
+2022-12-09 22:29:35,614:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 22:29:35,614:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 22:29:35,614:INFO:   <<< rank: 0
+2022-12-09 22:29:35,614:INFO:   <<< sampled_use_mil: False
+2022-12-09 22:29:35,614:INFO:   <<< seed: 42
+2022-12-09 22:29:35,614:INFO:   <<< sim_header: seqTransf
+2022-12-09 22:29:35,614:INFO:   <<< slice_framepos: 2
+2022-12-09 22:29:35,614:INFO:   <<< task_type: retrieval
+2022-12-09 22:29:35,614:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 22:29:35,614:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 22:29:35,614:INFO:   <<< train_frame_order: 0
+2022-12-09 22:29:35,615:INFO:   <<< use_mil: False
+2022-12-09 22:29:35,615:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 22:29:35,615:INFO:   <<< video_dim: 1024
+2022-12-09 22:29:35,615:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 22:29:35,615:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 22:29:35,615:INFO:   <<< world_size: 2
+2022-12-09 22:29:35,615:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 22:29:36,617:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 22:29:36,618:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 22:29:36,618:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 22:29:36,618:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 22:29:36,619:WARNING: Test retrieval by loose type.
+2022-12-09 22:29:36,619:WARNING: 	 embed_dim: 512
+2022-12-09 22:29:36,619:WARNING: 	 image_resolution: 224
+2022-12-09 22:29:36,619:WARNING: 	 vision_layers: 12
+2022-12-09 22:29:36,619:WARNING: 	 vision_width: 768
+2022-12-09 22:29:36,619:WARNING: 	 vision_patch_size: 32
+2022-12-09 22:29:36,619:WARNING: 	 context_length: 77
+2022-12-09 22:29:36,619:WARNING: 	 vocab_size: 49408
+2022-12-09 22:29:36,620:WARNING: 	 transformer_width: 512
+2022-12-09 22:29:36,620:WARNING: 	 transformer_heads: 8
+2022-12-09 22:29:36,620:WARNING: 	 transformer_layers: 12
+2022-12-09 22:29:36,620:WARNING: 		 linear_patch: 2d
+2022-12-09 22:29:36,620:WARNING: 	 cut_top_layer: 0
+2022-12-09 22:29:38,634:WARNING: 	 sim_header: seqTransf
+2022-12-09 22:33:44,852:INFO: Effective parameters:
+2022-12-09 22:33:44,852:INFO:   <<< batch_size: 128
+2022-12-09 22:33:44,852:INFO:   <<< batch_size_val: 8
+2022-12-09 22:33:44,852:INFO:   <<< best_ckpt_path: 
+2022-12-09 22:33:44,852:INFO:   <<< cache_dir: 
+2022-12-09 22:33:44,853:INFO:   <<< coef_lr: 0.001
+2022-12-09 22:33:44,853:INFO:   <<< cross_model: cross-base
+2022-12-09 22:33:44,853:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 22:33:44,853:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 22:33:44,853:INFO:   <<< datatype: msrvtt
+2022-12-09 22:33:44,853:INFO:   <<< do_eval: False
+2022-12-09 22:33:44,853:INFO:   <<< do_lower_case: False
+2022-12-09 22:33:44,853:INFO:   <<< do_pretrain: False
+2022-12-09 22:33:44,853:INFO:   <<< do_train: True
+2022-12-09 22:33:44,853:INFO:   <<< epochs: 5
+2022-12-09 22:33:44,854:INFO:   <<< eval_frame_order: 0
+2022-12-09 22:33:44,854:INFO:   <<< eval_in_train: True
+2022-12-09 22:33:44,854:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 22:33:44,854:INFO:   <<< feature_framerate: 1
+2022-12-09 22:33:44,854:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 22:33:44,854:INFO:   <<< fp16: False
+2022-12-09 22:33:44,854:INFO:   <<< fp16_opt_level: O1
+2022-12-09 22:33:44,854:INFO:   <<< freeze_layer_num: 0
+2022-12-09 22:33:44,854:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 22:33:44,855:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 22:33:44,855:INFO:   <<< init_model: None
+2022-12-09 22:33:44,855:INFO:   <<< linear_patch: 2d
+2022-12-09 22:33:44,855:INFO:   <<< local_rank: 0
+2022-12-09 22:33:44,855:INFO:   <<< loose_type: True
+2022-12-09 22:33:44,855:INFO:   <<< lr: 0.0001
+2022-12-09 22:33:44,855:INFO:   <<< lr_decay: 0.9
+2022-12-09 22:33:44,855:INFO:   <<< margin: 0.1
+2022-12-09 22:33:44,855:INFO:   <<< max_frames: 12
+2022-12-09 22:33:44,856:INFO:   <<< max_words: 32
+2022-12-09 22:33:44,856:INFO:   <<< n_display: 50
+2022-12-09 22:33:44,856:INFO:   <<< n_gpu: 1
+2022-12-09 22:33:44,856:INFO:   <<< n_pair: 1
+2022-12-09 22:33:44,856:INFO:   <<< negative_weighting: 1
+2022-12-09 22:33:44,856:INFO:   <<< num_thread_reader: 2
+2022-12-09 22:33:44,856:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 22:33:44,856:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 22:33:44,856:INFO:   <<< rank: 0
+2022-12-09 22:33:44,856:INFO:   <<< sampled_use_mil: False
+2022-12-09 22:33:44,857:INFO:   <<< seed: 42
+2022-12-09 22:33:44,857:INFO:   <<< sim_header: seqTransf
+2022-12-09 22:33:44,857:INFO:   <<< slice_framepos: 2
+2022-12-09 22:33:44,857:INFO:   <<< task_type: retrieval
+2022-12-09 22:33:44,857:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 22:33:44,857:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 22:33:44,857:INFO:   <<< train_frame_order: 0
+2022-12-09 22:33:44,857:INFO:   <<< use_mil: False
+2022-12-09 22:33:44,857:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 22:33:44,858:INFO:   <<< video_dim: 1024
+2022-12-09 22:33:44,858:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 22:33:44,858:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 22:33:44,858:INFO:   <<< world_size: 2
+2022-12-09 22:33:44,858:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 22:33:45,858:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 22:33:45,858:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 22:33:45,859:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 22:33:45,859:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 22:33:45,859:WARNING: Test retrieval by loose type.
+2022-12-09 22:33:45,859:WARNING: 	 embed_dim: 512
+2022-12-09 22:33:45,859:WARNING: 	 image_resolution: 224
+2022-12-09 22:33:45,860:WARNING: 	 vision_layers: 12
+2022-12-09 22:33:45,860:WARNING: 	 vision_width: 768
+2022-12-09 22:33:45,860:WARNING: 	 vision_patch_size: 32
+2022-12-09 22:33:45,860:WARNING: 	 context_length: 77
+2022-12-09 22:33:45,860:WARNING: 	 vocab_size: 49408
+2022-12-09 22:33:45,860:WARNING: 	 transformer_width: 512
+2022-12-09 22:33:45,860:WARNING: 	 transformer_heads: 8
+2022-12-09 22:33:45,860:WARNING: 	 transformer_layers: 12
+2022-12-09 22:33:45,860:WARNING: 		 linear_patch: 2d
+2022-12-09 22:33:45,860:WARNING: 	 cut_top_layer: 0
+2022-12-09 22:33:47,881:WARNING: 	 sim_header: seqTransf
+2022-12-09 22:40:04,328:INFO: Effective parameters:
+2022-12-09 22:40:04,328:INFO:   <<< batch_size: 128
+2022-12-09 22:40:04,328:INFO:   <<< batch_size_val: 8
+2022-12-09 22:40:04,328:INFO:   <<< best_ckpt_path: 
+2022-12-09 22:40:04,328:INFO:   <<< cache_dir: 
+2022-12-09 22:40:04,328:INFO:   <<< coef_lr: 0.001
+2022-12-09 22:40:04,328:INFO:   <<< cross_model: cross-base
+2022-12-09 22:40:04,328:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 22:40:04,328:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 22:40:04,329:INFO:   <<< datatype: msrvtt
+2022-12-09 22:40:04,329:INFO:   <<< do_eval: False
+2022-12-09 22:40:04,329:INFO:   <<< do_lower_case: False
+2022-12-09 22:40:04,329:INFO:   <<< do_pretrain: False
+2022-12-09 22:40:04,329:INFO:   <<< do_train: True
+2022-12-09 22:40:04,329:INFO:   <<< epochs: 5
+2022-12-09 22:40:04,329:INFO:   <<< eval_frame_order: 0
+2022-12-09 22:40:04,329:INFO:   <<< eval_in_train: True
+2022-12-09 22:40:04,329:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 22:40:04,329:INFO:   <<< feature_framerate: 1
+2022-12-09 22:40:04,329:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 22:40:04,330:INFO:   <<< fp16: False
+2022-12-09 22:40:04,330:INFO:   <<< fp16_opt_level: O1
+2022-12-09 22:40:04,330:INFO:   <<< freeze_layer_num: 0
+2022-12-09 22:40:04,330:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 22:40:04,330:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 22:40:04,330:INFO:   <<< init_model: None
+2022-12-09 22:40:04,330:INFO:   <<< linear_patch: 2d
+2022-12-09 22:40:04,330:INFO:   <<< local_rank: 0
+2022-12-09 22:40:04,330:INFO:   <<< loose_type: True
+2022-12-09 22:40:04,330:INFO:   <<< lr: 0.0001
+2022-12-09 22:40:04,330:INFO:   <<< lr_decay: 0.9
+2022-12-09 22:40:04,330:INFO:   <<< margin: 0.1
+2022-12-09 22:40:04,331:INFO:   <<< max_frames: 12
+2022-12-09 22:40:04,331:INFO:   <<< max_words: 32
+2022-12-09 22:40:04,331:INFO:   <<< n_display: 50
+2022-12-09 22:40:04,331:INFO:   <<< n_gpu: 1
+2022-12-09 22:40:04,331:INFO:   <<< n_pair: 1
+2022-12-09 22:40:04,331:INFO:   <<< negative_weighting: 1
+2022-12-09 22:40:04,331:INFO:   <<< num_thread_reader: 2
+2022-12-09 22:40:04,331:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 22:40:04,331:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 22:40:04,331:INFO:   <<< rank: 0
+2022-12-09 22:40:04,331:INFO:   <<< sampled_use_mil: False
+2022-12-09 22:40:04,332:INFO:   <<< seed: 42
+2022-12-09 22:40:04,332:INFO:   <<< sim_header: seqTransf
+2022-12-09 22:40:04,332:INFO:   <<< slice_framepos: 2
+2022-12-09 22:40:04,332:INFO:   <<< task_type: retrieval
+2022-12-09 22:40:04,332:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 22:40:04,332:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 22:40:04,332:INFO:   <<< train_frame_order: 0
+2022-12-09 22:40:04,332:INFO:   <<< use_mil: False
+2022-12-09 22:40:04,332:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 22:40:04,333:INFO:   <<< video_dim: 1024
+2022-12-09 22:40:04,333:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 22:40:04,333:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 22:40:04,333:INFO:   <<< world_size: 2
+2022-12-09 22:40:04,333:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 22:40:05,341:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 22:40:05,341:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 22:40:05,341:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 22:40:05,341:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 22:40:05,342:WARNING: Test retrieval by loose type.
+2022-12-09 22:40:05,342:WARNING: 	 embed_dim: 512
+2022-12-09 22:40:05,342:WARNING: 	 image_resolution: 224
+2022-12-09 22:40:05,342:WARNING: 	 vision_layers: 12
+2022-12-09 22:40:05,342:WARNING: 	 vision_width: 768
+2022-12-09 22:40:05,342:WARNING: 	 vision_patch_size: 32
+2022-12-09 22:40:05,342:WARNING: 	 context_length: 77
+2022-12-09 22:40:05,343:WARNING: 	 vocab_size: 49408
+2022-12-09 22:40:05,343:WARNING: 	 transformer_width: 512
+2022-12-09 22:40:05,343:WARNING: 	 transformer_heads: 8
+2022-12-09 22:40:05,343:WARNING: 	 transformer_layers: 12
+2022-12-09 22:40:05,343:WARNING: 		 linear_patch: 2d
+2022-12-09 22:40:05,343:WARNING: 	 cut_top_layer: 0
+2022-12-09 22:40:07,360:WARNING: 	 sim_header: seqTransf
+2022-12-09 22:48:13,020:INFO: Effective parameters:
+2022-12-09 22:48:13,020:INFO:   <<< batch_size: 128
+2022-12-09 22:48:13,020:INFO:   <<< batch_size_val: 8
+2022-12-09 22:48:13,020:INFO:   <<< best_ckpt_path: 
+2022-12-09 22:48:13,020:INFO:   <<< cache_dir: 
+2022-12-09 22:48:13,020:INFO:   <<< coef_lr: 0.001
+2022-12-09 22:48:13,021:INFO:   <<< cross_model: cross-base
+2022-12-09 22:48:13,021:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 22:48:13,021:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 22:48:13,021:INFO:   <<< datatype: msrvtt
+2022-12-09 22:48:13,021:INFO:   <<< do_eval: False
+2022-12-09 22:48:13,021:INFO:   <<< do_lower_case: False
+2022-12-09 22:48:13,021:INFO:   <<< do_pretrain: False
+2022-12-09 22:48:13,021:INFO:   <<< do_train: True
+2022-12-09 22:48:13,021:INFO:   <<< epochs: 5
+2022-12-09 22:48:13,021:INFO:   <<< eval_frame_order: 0
+2022-12-09 22:48:13,021:INFO:   <<< eval_in_train: True
+2022-12-09 22:48:13,021:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 22:48:13,022:INFO:   <<< feature_framerate: 1
+2022-12-09 22:48:13,022:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 22:48:13,022:INFO:   <<< fp16: False
+2022-12-09 22:48:13,022:INFO:   <<< fp16_opt_level: O1
+2022-12-09 22:48:13,022:INFO:   <<< freeze_layer_num: 0
+2022-12-09 22:48:13,022:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 22:48:13,022:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 22:48:13,022:INFO:   <<< init_model: None
+2022-12-09 22:48:13,022:INFO:   <<< linear_patch: 2d
+2022-12-09 22:48:13,022:INFO:   <<< local_rank: 0
+2022-12-09 22:48:13,022:INFO:   <<< loose_type: True
+2022-12-09 22:48:13,022:INFO:   <<< lr: 0.0001
+2022-12-09 22:48:13,023:INFO:   <<< lr_decay: 0.9
+2022-12-09 22:48:13,023:INFO:   <<< margin: 0.1
+2022-12-09 22:48:13,023:INFO:   <<< max_frames: 12
+2022-12-09 22:48:13,023:INFO:   <<< max_words: 32
+2022-12-09 22:48:13,023:INFO:   <<< n_display: 50
+2022-12-09 22:48:13,023:INFO:   <<< n_gpu: 1
+2022-12-09 22:48:13,023:INFO:   <<< n_pair: 1
+2022-12-09 22:48:13,023:INFO:   <<< negative_weighting: 1
+2022-12-09 22:48:13,023:INFO:   <<< num_thread_reader: 2
+2022-12-09 22:48:13,024:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 22:48:13,024:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 22:48:13,024:INFO:   <<< rank: 0
+2022-12-09 22:48:13,024:INFO:   <<< sampled_use_mil: False
+2022-12-09 22:48:13,024:INFO:   <<< seed: 42
+2022-12-09 22:48:13,024:INFO:   <<< sim_header: seqTransf
+2022-12-09 22:48:13,024:INFO:   <<< slice_framepos: 2
+2022-12-09 22:48:13,024:INFO:   <<< task_type: retrieval
+2022-12-09 22:48:13,024:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 22:48:13,025:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 22:48:13,025:INFO:   <<< train_frame_order: 0
+2022-12-09 22:48:13,025:INFO:   <<< use_mil: False
+2022-12-09 22:48:13,025:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 22:48:13,025:INFO:   <<< video_dim: 1024
+2022-12-09 22:48:13,025:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 22:48:13,025:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 22:48:13,025:INFO:   <<< world_size: 2
+2022-12-09 22:48:13,025:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 22:48:14,033:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 22:48:14,034:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 22:48:14,034:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 22:48:14,034:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 22:48:14,034:WARNING: Test retrieval by loose type.
+2022-12-09 22:48:14,034:WARNING: 	 embed_dim: 512
+2022-12-09 22:48:14,035:WARNING: 	 image_resolution: 224
+2022-12-09 22:48:14,035:WARNING: 	 vision_layers: 12
+2022-12-09 22:48:14,035:WARNING: 	 vision_width: 768
+2022-12-09 22:48:14,035:WARNING: 	 vision_patch_size: 32
+2022-12-09 22:48:14,035:WARNING: 	 context_length: 77
+2022-12-09 22:48:14,035:WARNING: 	 vocab_size: 49408
+2022-12-09 22:48:14,035:WARNING: 	 transformer_width: 512
+2022-12-09 22:48:14,035:WARNING: 	 transformer_heads: 8
+2022-12-09 22:48:14,035:WARNING: 	 transformer_layers: 12
+2022-12-09 22:48:14,035:WARNING: 		 linear_patch: 2d
+2022-12-09 22:48:14,035:WARNING: 	 cut_top_layer: 0
+2022-12-09 22:48:16,060:WARNING: 	 sim_header: seqTransf
+2022-12-09 22:52:48,923:INFO: Effective parameters:
+2022-12-09 22:52:48,923:INFO:   <<< batch_size: 128
+2022-12-09 22:52:48,924:INFO:   <<< batch_size_val: 8
+2022-12-09 22:52:48,924:INFO:   <<< best_ckpt_path: 
+2022-12-09 22:52:48,924:INFO:   <<< cache_dir: 
+2022-12-09 22:52:48,924:INFO:   <<< coef_lr: 0.001
+2022-12-09 22:52:48,924:INFO:   <<< cross_model: cross-base
+2022-12-09 22:52:48,924:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 22:52:48,924:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 22:52:48,924:INFO:   <<< datatype: msrvtt
+2022-12-09 22:52:48,925:INFO:   <<< do_eval: False
+2022-12-09 22:52:48,925:INFO:   <<< do_lower_case: False
+2022-12-09 22:52:48,925:INFO:   <<< do_pretrain: False
+2022-12-09 22:52:48,925:INFO:   <<< do_train: True
+2022-12-09 22:52:48,925:INFO:   <<< epochs: 5
+2022-12-09 22:52:48,925:INFO:   <<< eval_frame_order: 0
+2022-12-09 22:52:48,925:INFO:   <<< eval_in_train: True
+2022-12-09 22:52:48,925:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 22:52:48,925:INFO:   <<< feature_framerate: 1
+2022-12-09 22:52:48,926:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 22:52:48,926:INFO:   <<< fp16: False
+2022-12-09 22:52:48,926:INFO:   <<< fp16_opt_level: O1
+2022-12-09 22:52:48,926:INFO:   <<< freeze_layer_num: 0
+2022-12-09 22:52:48,926:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 22:52:48,926:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 22:52:48,926:INFO:   <<< init_model: None
+2022-12-09 22:52:48,926:INFO:   <<< linear_patch: 2d
+2022-12-09 22:52:48,926:INFO:   <<< local_rank: 0
+2022-12-09 22:52:48,927:INFO:   <<< loose_type: True
+2022-12-09 22:52:48,927:INFO:   <<< lr: 0.0001
+2022-12-09 22:52:48,927:INFO:   <<< lr_decay: 0.9
+2022-12-09 22:52:48,927:INFO:   <<< margin: 0.1
+2022-12-09 22:52:48,927:INFO:   <<< max_frames: 12
+2022-12-09 22:52:48,927:INFO:   <<< max_words: 32
+2022-12-09 22:52:48,927:INFO:   <<< n_display: 50
+2022-12-09 22:52:48,927:INFO:   <<< n_gpu: 1
+2022-12-09 22:52:48,927:INFO:   <<< n_pair: 1
+2022-12-09 22:52:48,928:INFO:   <<< negative_weighting: 1
+2022-12-09 22:52:48,928:INFO:   <<< num_thread_reader: 2
+2022-12-09 22:52:48,928:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 22:52:48,928:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 22:52:48,928:INFO:   <<< rank: 0
+2022-12-09 22:52:48,928:INFO:   <<< sampled_use_mil: False
+2022-12-09 22:52:48,928:INFO:   <<< seed: 42
+2022-12-09 22:52:48,928:INFO:   <<< sim_header: seqTransf
+2022-12-09 22:52:48,928:INFO:   <<< slice_framepos: 2
+2022-12-09 22:52:48,928:INFO:   <<< task_type: retrieval
+2022-12-09 22:52:48,929:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 22:52:48,929:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 22:52:48,929:INFO:   <<< train_frame_order: 0
+2022-12-09 22:52:48,929:INFO:   <<< use_mil: False
+2022-12-09 22:52:48,929:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 22:52:48,929:INFO:   <<< video_dim: 1024
+2022-12-09 22:52:48,929:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 22:52:48,929:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 22:52:48,929:INFO:   <<< world_size: 2
+2022-12-09 22:52:48,930:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 22:52:48,932:INFO: Effective parameters:
+2022-12-09 22:52:48,933:INFO:   <<< batch_size: 128
+2022-12-09 22:52:48,933:INFO:   <<< batch_size_val: 8
+2022-12-09 22:52:48,933:INFO:   <<< best_ckpt_path: 
+2022-12-09 22:52:48,933:INFO:   <<< cache_dir: 
+2022-12-09 22:52:48,933:INFO:   <<< coef_lr: 0.001
+2022-12-09 22:52:48,933:INFO:   <<< cross_model: cross-base
+2022-12-09 22:52:48,933:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 22:52:48,933:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 22:52:48,933:INFO:   <<< datatype: msrvtt
+2022-12-09 22:52:48,934:INFO:   <<< do_eval: False
+2022-12-09 22:52:48,934:INFO:   <<< do_lower_case: False
+2022-12-09 22:52:48,934:INFO:   <<< do_pretrain: False
+2022-12-09 22:52:48,934:INFO:   <<< do_train: True
+2022-12-09 22:52:48,934:INFO:   <<< epochs: 5
+2022-12-09 22:52:48,934:INFO:   <<< eval_frame_order: 0
+2022-12-09 22:52:48,934:INFO:   <<< eval_in_train: True
+2022-12-09 22:52:48,934:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 22:52:48,934:INFO:   <<< feature_framerate: 1
+2022-12-09 22:52:48,934:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 22:52:48,935:INFO:   <<< fp16: False
+2022-12-09 22:52:48,935:INFO:   <<< fp16_opt_level: O1
+2022-12-09 22:52:48,935:INFO:   <<< freeze_layer_num: 0
+2022-12-09 22:52:48,935:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 22:52:48,935:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 22:52:48,935:INFO:   <<< init_model: None
+2022-12-09 22:52:48,935:INFO:   <<< linear_patch: 2d
+2022-12-09 22:52:48,935:INFO:   <<< local_rank: 0
+2022-12-09 22:52:48,935:INFO:   <<< loose_type: True
+2022-12-09 22:52:48,936:INFO:   <<< lr: 0.0001
+2022-12-09 22:52:48,936:INFO:   <<< lr_decay: 0.9
+2022-12-09 22:52:48,936:INFO:   <<< margin: 0.1
+2022-12-09 22:52:48,936:INFO:   <<< max_frames: 12
+2022-12-09 22:52:48,936:INFO:   <<< max_words: 32
+2022-12-09 22:52:48,936:INFO:   <<< n_display: 50
+2022-12-09 22:52:48,936:INFO:   <<< n_gpu: 1
+2022-12-09 22:52:48,936:INFO:   <<< n_pair: 1
+2022-12-09 22:52:48,936:INFO:   <<< negative_weighting: 1
+2022-12-09 22:52:48,936:INFO:   <<< num_thread_reader: 2
+2022-12-09 22:52:48,937:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 22:52:48,937:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 22:52:48,937:INFO:   <<< rank: 1
+2022-12-09 22:52:48,937:INFO:   <<< sampled_use_mil: False
+2022-12-09 22:52:48,937:INFO:   <<< seed: 42
+2022-12-09 22:52:48,937:INFO:   <<< sim_header: seqTransf
+2022-12-09 22:52:48,937:INFO:   <<< slice_framepos: 2
+2022-12-09 22:52:48,937:INFO:   <<< task_type: retrieval
+2022-12-09 22:52:48,937:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 22:52:48,937:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 22:52:48,937:INFO:   <<< train_frame_order: 0
+2022-12-09 22:52:48,938:INFO:   <<< use_mil: False
+2022-12-09 22:52:48,938:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 22:52:48,938:INFO:   <<< video_dim: 1024
+2022-12-09 22:52:48,938:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 22:52:48,938:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 22:52:48,938:INFO:   <<< world_size: 2
+2022-12-09 22:52:48,938:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 22:52:49,950:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 22:52:49,950:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 22:52:49,951:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 22:52:49,951:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 22:52:49,951:WARNING: Test retrieval by loose type.
+2022-12-09 22:52:49,951:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 22:52:49,951:WARNING: 	 embed_dim: 512
+2022-12-09 22:52:49,951:WARNING: 	 image_resolution: 224
+2022-12-09 22:52:49,951:WARNING: 	 vision_layers: 12
+2022-12-09 22:52:49,952:WARNING: 	 vision_width: 768
+2022-12-09 22:52:49,952:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 22:52:49,952:WARNING: 	 vision_patch_size: 32
+2022-12-09 22:52:49,952:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 22:52:49,952:WARNING: 	 context_length: 77
+2022-12-09 22:52:49,952:WARNING: 	 vocab_size: 49408
+2022-12-09 22:52:49,952:WARNING: 	 transformer_width: 512
+2022-12-09 22:52:49,952:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 22:52:49,952:WARNING: 	 transformer_heads: 8
+2022-12-09 22:52:49,952:WARNING: Test retrieval by loose type.
+2022-12-09 22:52:49,952:WARNING: 	 transformer_layers: 12
+2022-12-09 22:52:49,952:WARNING: 		 linear_patch: 2d
+2022-12-09 22:52:49,952:WARNING: 	 cut_top_layer: 0
+2022-12-09 22:52:49,953:WARNING: 	 embed_dim: 512
+2022-12-09 22:52:49,953:WARNING: 	 image_resolution: 224
+2022-12-09 22:52:49,953:WARNING: 	 vision_layers: 12
+2022-12-09 22:52:49,953:WARNING: 	 vision_width: 768
+2022-12-09 22:52:49,953:WARNING: 	 vision_patch_size: 32
+2022-12-09 22:52:49,953:WARNING: 	 context_length: 77
+2022-12-09 22:52:49,953:WARNING: 	 vocab_size: 49408
+2022-12-09 22:52:49,953:WARNING: 	 transformer_width: 512
+2022-12-09 22:52:49,953:WARNING: 	 transformer_heads: 8
+2022-12-09 22:52:49,953:WARNING: 	 transformer_layers: 12
+2022-12-09 22:52:49,954:WARNING: 		 linear_patch: 2d
+2022-12-09 22:52:49,954:WARNING: 	 cut_top_layer: 0
+2022-12-09 22:52:51,995:WARNING: 	 sim_header: seqTransf
+2022-12-09 22:52:52,001:WARNING: 	 sim_header: seqTransf
+2022-12-09 22:53:00,629:INFO: --------------------
+2022-12-09 22:53:00,629:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-09 22:53:00,629:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-09 22:53:00,629:WARNING: Using patch shift!
+2022-12-09 22:53:00,629:WARNING: Using patch shift!
+2022-12-09 22:53:00,640:INFO: --------------------
+2022-12-09 22:53:00,640:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-09 22:53:00,640:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-09 22:53:00,641:WARNING: Using patch shift!
+2022-12-09 22:53:00,641:WARNING: Using patch shift!
+2022-12-09 22:53:06,830:INFO: ***** Running test *****
+2022-12-09 22:53:06,830:INFO:   Num examples = 1000
+2022-12-09 22:53:06,830:INFO:   Batch size = 8
+2022-12-09 22:53:06,831:INFO:   Num steps = 125
+2022-12-09 22:53:06,831:INFO: ***** Running val *****
+2022-12-09 22:53:06,831:INFO:   Num examples = 1000
+2022-12-09 22:53:06,832:INFO: ***** Running test *****
+2022-12-09 22:53:06,833:INFO:   Num examples = 1000
+2022-12-09 22:53:06,833:INFO:   Batch size = 8
+2022-12-09 22:53:06,833:INFO:   Num steps = 125
+2022-12-09 22:53:06,833:INFO: ***** Running val *****
+2022-12-09 22:53:06,833:INFO:   Num examples = 1000
+2022-12-09 22:57:25,788:INFO: Effective parameters:
+2022-12-09 22:57:25,789:INFO:   <<< batch_size: 128
+2022-12-09 22:57:25,789:INFO:   <<< batch_size_val: 8
+2022-12-09 22:57:25,789:INFO:   <<< best_ckpt_path: 
+2022-12-09 22:57:25,789:INFO:   <<< cache_dir: 
+2022-12-09 22:57:25,789:INFO:   <<< coef_lr: 0.001
+2022-12-09 22:57:25,789:INFO:   <<< cross_model: cross-base
+2022-12-09 22:57:25,789:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 22:57:25,789:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 22:57:25,789:INFO:   <<< datatype: msrvtt
+2022-12-09 22:57:25,789:INFO:   <<< do_eval: False
+2022-12-09 22:57:25,789:INFO:   <<< do_lower_case: False
+2022-12-09 22:57:25,790:INFO:   <<< do_pretrain: False
+2022-12-09 22:57:25,790:INFO:   <<< do_train: True
+2022-12-09 22:57:25,790:INFO:   <<< epochs: 5
+2022-12-09 22:57:25,790:INFO:   <<< eval_frame_order: 0
+2022-12-09 22:57:25,790:INFO:   <<< eval_in_train: True
+2022-12-09 22:57:25,790:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 22:57:25,790:INFO:   <<< feature_framerate: 1
+2022-12-09 22:57:25,790:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 22:57:25,790:INFO:   <<< fp16: False
+2022-12-09 22:57:25,790:INFO:   <<< fp16_opt_level: O1
+2022-12-09 22:57:25,790:INFO:   <<< freeze_layer_num: 0
+2022-12-09 22:57:25,791:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 22:57:25,791:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 22:57:25,791:INFO:   <<< init_model: None
+2022-12-09 22:57:25,791:INFO:   <<< linear_patch: 2d
+2022-12-09 22:57:25,791:INFO:   <<< local_rank: 0
+2022-12-09 22:57:25,791:INFO:   <<< loose_type: True
+2022-12-09 22:57:25,791:INFO:   <<< lr: 0.0001
+2022-12-09 22:57:25,791:INFO:   <<< lr_decay: 0.9
+2022-12-09 22:57:25,791:INFO:   <<< margin: 0.1
+2022-12-09 22:57:25,791:INFO:   <<< max_frames: 12
+2022-12-09 22:57:25,791:INFO:   <<< max_words: 32
+2022-12-09 22:57:25,792:INFO:   <<< n_display: 50
+2022-12-09 22:57:25,792:INFO:   <<< n_gpu: 1
+2022-12-09 22:57:25,792:INFO:   <<< n_pair: 1
+2022-12-09 22:57:25,792:INFO:   <<< negative_weighting: 1
+2022-12-09 22:57:25,792:INFO:   <<< num_thread_reader: 1
+2022-12-09 22:57:25,792:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 22:57:25,792:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 22:57:25,792:INFO:   <<< rank: 0
+2022-12-09 22:57:25,792:INFO:   <<< sampled_use_mil: False
+2022-12-09 22:57:25,792:INFO:   <<< seed: 42
+2022-12-09 22:57:25,792:INFO:   <<< sim_header: seqTransf
+2022-12-09 22:57:25,793:INFO:   <<< slice_framepos: 2
+2022-12-09 22:57:25,793:INFO:   <<< task_type: retrieval
+2022-12-09 22:57:25,793:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 22:57:25,793:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 22:57:25,793:INFO:   <<< train_frame_order: 0
+2022-12-09 22:57:25,793:INFO:   <<< use_mil: False
+2022-12-09 22:57:25,793:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 22:57:25,793:INFO:   <<< video_dim: 1024
+2022-12-09 22:57:25,793:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 22:57:25,793:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 22:57:25,793:INFO:   <<< world_size: 1
+2022-12-09 22:57:25,794:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 22:57:26,650:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 22:57:26,651:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 22:57:26,651:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 22:57:26,651:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 22:57:26,652:WARNING: Test retrieval by loose type.
+2022-12-09 22:57:26,652:WARNING: 	 embed_dim: 512
+2022-12-09 22:57:26,652:WARNING: 	 image_resolution: 224
+2022-12-09 22:57:26,652:WARNING: 	 vision_layers: 12
+2022-12-09 22:57:26,652:WARNING: 	 vision_width: 768
+2022-12-09 22:57:26,652:WARNING: 	 vision_patch_size: 32
+2022-12-09 22:57:26,652:WARNING: 	 context_length: 77
+2022-12-09 22:57:26,652:WARNING: 	 vocab_size: 49408
+2022-12-09 22:57:26,653:WARNING: 	 transformer_width: 512
+2022-12-09 22:57:26,653:WARNING: 	 transformer_heads: 8
+2022-12-09 22:57:26,653:WARNING: 	 transformer_layers: 12
+2022-12-09 22:57:26,653:WARNING: 		 linear_patch: 2d
+2022-12-09 22:57:26,653:WARNING: 	 cut_top_layer: 0
+2022-12-09 22:57:28,631:WARNING: 	 sim_header: seqTransf
+2022-12-09 22:57:37,213:INFO: --------------------
+2022-12-09 22:57:37,213:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-09 22:57:37,213:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-09 22:57:37,213:WARNING: Using patch shift!
+2022-12-09 22:57:37,213:WARNING: Using patch shift!
+2022-12-09 22:57:39,991:INFO: ***** Running test *****
+2022-12-09 22:57:39,991:INFO:   Num examples = 1000
+2022-12-09 22:57:39,991:INFO:   Batch size = 8
+2022-12-09 22:57:39,991:INFO:   Num steps = 125
+2022-12-09 22:57:39,991:INFO: ***** Running val *****
+2022-12-09 22:57:39,991:INFO:   Num examples = 1000
+2022-12-09 22:57:57,729:INFO: ***** Running training *****
+2022-12-09 22:57:57,729:INFO:   Num examples = 180000
+2022-12-09 22:57:57,729:INFO:   Batch size = 128
+2022-12-09 22:57:57,730:INFO:   Num steps = 7030
+2022-12-09 23:08:28,637:INFO: Effective parameters:
+2022-12-09 23:08:28,637:INFO:   <<< batch_size: 128
+2022-12-09 23:08:28,637:INFO:   <<< batch_size_val: 8
+2022-12-09 23:08:28,637:INFO:   <<< best_ckpt_path: 
+2022-12-09 23:08:28,637:INFO:   <<< cache_dir: 
+2022-12-09 23:08:28,637:INFO:   <<< coef_lr: 0.001
+2022-12-09 23:08:28,637:INFO:   <<< cross_model: cross-base
+2022-12-09 23:08:28,637:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 23:08:28,637:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 23:08:28,638:INFO:   <<< datatype: msrvtt
+2022-12-09 23:08:28,638:INFO:   <<< do_eval: False
+2022-12-09 23:08:28,638:INFO:   <<< do_lower_case: False
+2022-12-09 23:08:28,638:INFO:   <<< do_pretrain: False
+2022-12-09 23:08:28,638:INFO:   <<< do_train: True
+2022-12-09 23:08:28,638:INFO:   <<< epochs: 5
+2022-12-09 23:08:28,638:INFO:   <<< eval_frame_order: 0
+2022-12-09 23:08:28,638:INFO:   <<< eval_in_train: True
+2022-12-09 23:08:28,638:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 23:08:28,638:INFO:   <<< feature_framerate: 1
+2022-12-09 23:08:28,638:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 23:08:28,639:INFO:   <<< fp16: False
+2022-12-09 23:08:28,639:INFO:   <<< fp16_opt_level: O1
+2022-12-09 23:08:28,639:INFO:   <<< freeze_layer_num: 0
+2022-12-09 23:08:28,639:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 23:08:28,639:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 23:08:28,639:INFO:   <<< init_model: None
+2022-12-09 23:08:28,639:INFO:   <<< linear_patch: 2d
+2022-12-09 23:08:28,639:INFO:   <<< local_rank: 0
+2022-12-09 23:08:28,639:INFO:   <<< loose_type: True
+2022-12-09 23:08:28,639:INFO:   <<< lr: 0.0001
+2022-12-09 23:08:28,640:INFO:   <<< lr_decay: 0.9
+2022-12-09 23:08:28,640:INFO:   <<< margin: 0.1
+2022-12-09 23:08:28,640:INFO:   <<< max_frames: 12
+2022-12-09 23:08:28,640:INFO:   <<< max_words: 32
+2022-12-09 23:08:28,640:INFO:   <<< n_display: 50
+2022-12-09 23:08:28,640:INFO:   <<< n_gpu: 1
+2022-12-09 23:08:28,640:INFO:   <<< n_pair: 1
+2022-12-09 23:08:28,640:INFO:   <<< negative_weighting: 1
+2022-12-09 23:08:28,640:INFO:   <<< num_thread_reader: 1
+2022-12-09 23:08:28,640:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 23:08:28,640:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 23:08:28,641:INFO:   <<< rank: 0
+2022-12-09 23:08:28,641:INFO:   <<< sampled_use_mil: False
+2022-12-09 23:08:28,641:INFO:   <<< seed: 42
+2022-12-09 23:08:28,641:INFO:   <<< sim_header: seqTransf
+2022-12-09 23:08:28,641:INFO:   <<< slice_framepos: 2
+2022-12-09 23:08:28,641:INFO:   <<< task_type: retrieval
+2022-12-09 23:08:28,641:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 23:08:28,641:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 23:08:28,641:INFO:   <<< train_frame_order: 0
+2022-12-09 23:08:28,641:INFO:   <<< use_mil: False
+2022-12-09 23:08:28,642:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 23:08:28,642:INFO:   <<< video_dim: 1024
+2022-12-09 23:08:28,642:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 23:08:28,642:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 23:08:28,642:INFO:   <<< world_size: 1
+2022-12-09 23:08:28,642:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 23:08:29,496:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 23:08:29,497:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 23:08:29,497:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 23:08:29,497:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 23:08:29,497:WARNING: Test retrieval by loose type.
+2022-12-09 23:08:29,497:WARNING: 	 embed_dim: 512
+2022-12-09 23:08:29,498:WARNING: 	 image_resolution: 224
+2022-12-09 23:08:29,498:WARNING: 	 vision_layers: 12
+2022-12-09 23:08:29,498:WARNING: 	 vision_width: 768
+2022-12-09 23:08:29,498:WARNING: 	 vision_patch_size: 32
+2022-12-09 23:08:29,498:WARNING: 	 context_length: 77
+2022-12-09 23:08:29,498:WARNING: 	 vocab_size: 49408
+2022-12-09 23:08:29,498:WARNING: 	 transformer_width: 512
+2022-12-09 23:08:29,498:WARNING: 	 transformer_heads: 8
+2022-12-09 23:08:29,498:WARNING: 	 transformer_layers: 12
+2022-12-09 23:08:29,498:WARNING: 		 linear_patch: 2d
+2022-12-09 23:08:29,499:WARNING: 	 cut_top_layer: 0
+2022-12-09 23:08:31,479:WARNING: 	 sim_header: seqTransf
+2022-12-09 23:08:40,060:INFO: --------------------
+2022-12-09 23:08:40,060:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-09 23:08:40,060:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-09 23:08:40,061:WARNING: Using patch shift!
+2022-12-09 23:08:40,061:WARNING: Using patch shift!
+2022-12-09 23:08:42,839:INFO: ***** Running test *****
+2022-12-09 23:08:42,839:INFO:   Num examples = 1000
+2022-12-09 23:08:42,839:INFO:   Batch size = 8
+2022-12-09 23:08:42,839:INFO:   Num steps = 125
+2022-12-09 23:08:42,839:INFO: ***** Running val *****
+2022-12-09 23:08:42,839:INFO:   Num examples = 1000
+2022-12-09 23:09:00,552:INFO: ***** Running training *****
+2022-12-09 23:09:00,553:INFO:   Num examples = 180000
+2022-12-09 23:09:00,553:INFO:   Batch size = 128
+2022-12-09 23:09:00,553:INFO:   Num steps = 7030
+2022-12-09 23:13:00,426:INFO: Effective parameters:
+2022-12-09 23:13:00,426:INFO:   <<< batch_size: 130
+2022-12-09 23:13:00,426:INFO:   <<< batch_size_val: 10
+2022-12-09 23:13:00,426:INFO:   <<< best_ckpt_path: 
+2022-12-09 23:13:00,426:INFO:   <<< cache_dir: 
+2022-12-09 23:13:00,426:INFO:   <<< coef_lr: 0.001
+2022-12-09 23:13:00,426:INFO:   <<< cross_model: cross-base
+2022-12-09 23:13:00,426:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 23:13:00,427:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 23:13:00,427:INFO:   <<< datatype: msrvtt
+2022-12-09 23:13:00,427:INFO:   <<< do_eval: False
+2022-12-09 23:13:00,427:INFO:   <<< do_lower_case: False
+2022-12-09 23:13:00,427:INFO:   <<< do_pretrain: False
+2022-12-09 23:13:00,427:INFO:   <<< do_train: True
+2022-12-09 23:13:00,427:INFO:   <<< epochs: 5
+2022-12-09 23:13:00,427:INFO:   <<< eval_frame_order: 0
+2022-12-09 23:13:00,427:INFO:   <<< eval_in_train: True
+2022-12-09 23:13:00,427:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 23:13:00,427:INFO:   <<< feature_framerate: 1
+2022-12-09 23:13:00,427:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 23:13:00,427:INFO:   <<< fp16: False
+2022-12-09 23:13:00,428:INFO:   <<< fp16_opt_level: O1
+2022-12-09 23:13:00,428:INFO:   <<< freeze_layer_num: 0
+2022-12-09 23:13:00,428:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 23:13:00,428:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 23:13:00,428:INFO:   <<< init_model: None
+2022-12-09 23:13:00,428:INFO:   <<< linear_patch: 2d
+2022-12-09 23:13:00,428:INFO:   <<< local_rank: 0
+2022-12-09 23:13:00,428:INFO:   <<< loose_type: True
+2022-12-09 23:13:00,428:INFO:   <<< lr: 0.0001
+2022-12-09 23:13:00,428:INFO:   <<< lr_decay: 0.9
+2022-12-09 23:13:00,428:INFO:   <<< margin: 0.1
+2022-12-09 23:13:00,428:INFO:   <<< max_frames: 12
+2022-12-09 23:13:00,429:INFO:   <<< max_words: 32
+2022-12-09 23:13:00,429:INFO:   <<< n_display: 50
+2022-12-09 23:13:00,429:INFO:   <<< n_gpu: 1
+2022-12-09 23:13:00,429:INFO:   <<< n_pair: 1
+2022-12-09 23:13:00,429:INFO:   <<< negative_weighting: 1
+2022-12-09 23:13:00,429:INFO:   <<< num_thread_reader: 1
+2022-12-09 23:13:00,429:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 23:13:00,429:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 23:13:00,429:INFO:   <<< rank: 0
+2022-12-09 23:13:00,429:INFO:   <<< sampled_use_mil: False
+2022-12-09 23:13:00,429:INFO:   <<< seed: 42
+2022-12-09 23:13:00,429:INFO:   <<< sim_header: seqTransf
+2022-12-09 23:13:00,429:INFO:   <<< slice_framepos: 2
+2022-12-09 23:13:00,430:INFO:   <<< task_type: retrieval
+2022-12-09 23:13:00,430:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 23:13:00,430:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 23:13:00,430:INFO:   <<< train_frame_order: 0
+2022-12-09 23:13:00,430:INFO:   <<< use_mil: False
+2022-12-09 23:13:00,430:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 23:13:00,430:INFO:   <<< video_dim: 1024
+2022-12-09 23:13:00,430:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 23:13:00,430:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 23:13:00,430:INFO:   <<< world_size: 1
+2022-12-09 23:13:00,430:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 23:13:01,287:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 23:13:01,288:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 23:13:01,288:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 23:13:01,288:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 23:13:01,288:WARNING: Test retrieval by loose type.
+2022-12-09 23:13:01,289:WARNING: 	 embed_dim: 512
+2022-12-09 23:13:01,289:WARNING: 	 image_resolution: 224
+2022-12-09 23:13:01,289:WARNING: 	 vision_layers: 12
+2022-12-09 23:13:01,289:WARNING: 	 vision_width: 768
+2022-12-09 23:13:01,289:WARNING: 	 vision_patch_size: 32
+2022-12-09 23:13:01,289:WARNING: 	 context_length: 77
+2022-12-09 23:13:01,289:WARNING: 	 vocab_size: 49408
+2022-12-09 23:13:01,289:WARNING: 	 transformer_width: 512
+2022-12-09 23:13:01,290:WARNING: 	 transformer_heads: 8
+2022-12-09 23:13:01,290:WARNING: 	 transformer_layers: 12
+2022-12-09 23:13:01,290:WARNING: 		 linear_patch: 2d
+2022-12-09 23:13:01,290:WARNING: 	 cut_top_layer: 0
+2022-12-09 23:13:03,277:WARNING: 	 sim_header: seqTransf
+2022-12-09 23:13:11,857:INFO: --------------------
+2022-12-09 23:13:11,858:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-09 23:13:11,858:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-09 23:13:11,858:WARNING: Using patch shift!
+2022-12-09 23:13:11,858:WARNING: Using patch shift!
+2022-12-09 23:13:14,634:INFO: ***** Running test *****
+2022-12-09 23:13:14,634:INFO:   Num examples = 1000
+2022-12-09 23:13:14,634:INFO:   Batch size = 10
+2022-12-09 23:13:14,634:INFO:   Num steps = 100
+2022-12-09 23:13:14,635:INFO: ***** Running val *****
+2022-12-09 23:13:14,635:INFO:   Num examples = 1000
+2022-12-09 23:13:32,342:INFO: ***** Running training *****
+2022-12-09 23:13:32,342:INFO:   Num examples = 180000
+2022-12-09 23:13:32,342:INFO:   Batch size = 130
+2022-12-09 23:13:32,342:INFO:   Num steps = 6920
+2022-12-09 23:14:04,062:INFO: Effective parameters:
+2022-12-09 23:14:04,063:INFO:   <<< batch_size: 120
+2022-12-09 23:14:04,063:INFO:   <<< batch_size_val: 10
+2022-12-09 23:14:04,063:INFO:   <<< best_ckpt_path: 
+2022-12-09 23:14:04,063:INFO:   <<< cache_dir: 
+2022-12-09 23:14:04,063:INFO:   <<< coef_lr: 0.001
+2022-12-09 23:14:04,063:INFO:   <<< cross_model: cross-base
+2022-12-09 23:14:04,063:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 23:14:04,063:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 23:14:04,063:INFO:   <<< datatype: msrvtt
+2022-12-09 23:14:04,063:INFO:   <<< do_eval: False
+2022-12-09 23:14:04,063:INFO:   <<< do_lower_case: False
+2022-12-09 23:14:04,064:INFO:   <<< do_pretrain: False
+2022-12-09 23:14:04,064:INFO:   <<< do_train: True
+2022-12-09 23:14:04,064:INFO:   <<< epochs: 5
+2022-12-09 23:14:04,064:INFO:   <<< eval_frame_order: 0
+2022-12-09 23:14:04,064:INFO:   <<< eval_in_train: True
+2022-12-09 23:14:04,064:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 23:14:04,064:INFO:   <<< feature_framerate: 1
+2022-12-09 23:14:04,064:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/
+2022-12-09 23:14:04,064:INFO:   <<< fp16: False
+2022-12-09 23:14:04,064:INFO:   <<< fp16_opt_level: O1
+2022-12-09 23:14:04,064:INFO:   <<< freeze_layer_num: 0
+2022-12-09 23:14:04,064:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 23:14:04,065:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 23:14:04,065:INFO:   <<< init_model: None
+2022-12-09 23:14:04,065:INFO:   <<< linear_patch: 2d
+2022-12-09 23:14:04,065:INFO:   <<< local_rank: 0
+2022-12-09 23:14:04,065:INFO:   <<< loose_type: True
+2022-12-09 23:14:04,065:INFO:   <<< lr: 0.0001
+2022-12-09 23:14:04,065:INFO:   <<< lr_decay: 0.9
+2022-12-09 23:14:04,065:INFO:   <<< margin: 0.1
+2022-12-09 23:14:04,065:INFO:   <<< max_frames: 12
+2022-12-09 23:14:04,065:INFO:   <<< max_words: 32
+2022-12-09 23:14:04,065:INFO:   <<< n_display: 50
+2022-12-09 23:14:04,066:INFO:   <<< n_gpu: 1
+2022-12-09 23:14:04,066:INFO:   <<< n_pair: 1
+2022-12-09 23:14:04,066:INFO:   <<< negative_weighting: 1
+2022-12-09 23:14:04,066:INFO:   <<< num_thread_reader: 1
+2022-12-09 23:14:04,066:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 23:14:04,066:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 23:14:04,066:INFO:   <<< rank: 0
+2022-12-09 23:14:04,066:INFO:   <<< sampled_use_mil: False
+2022-12-09 23:14:04,066:INFO:   <<< seed: 42
+2022-12-09 23:14:04,066:INFO:   <<< sim_header: seqTransf
+2022-12-09 23:14:04,066:INFO:   <<< slice_framepos: 2
+2022-12-09 23:14:04,066:INFO:   <<< task_type: retrieval
+2022-12-09 23:14:04,067:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 23:14:04,067:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 23:14:04,067:INFO:   <<< train_frame_order: 0
+2022-12-09 23:14:04,067:INFO:   <<< use_mil: False
+2022-12-09 23:14:04,067:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 23:14:04,067:INFO:   <<< video_dim: 1024
+2022-12-09 23:14:04,067:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 23:14:04,067:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 23:14:04,067:INFO:   <<< world_size: 1
+2022-12-09 23:14:04,067:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 23:14:04,923:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 23:14:04,924:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 23:14:04,924:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 23:14:04,924:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 23:14:04,924:WARNING: Test retrieval by loose type.
+2022-12-09 23:14:04,925:WARNING: 	 embed_dim: 512
+2022-12-09 23:14:04,925:WARNING: 	 image_resolution: 224
+2022-12-09 23:14:04,925:WARNING: 	 vision_layers: 12
+2022-12-09 23:14:04,925:WARNING: 	 vision_width: 768
+2022-12-09 23:14:04,925:WARNING: 	 vision_patch_size: 32
+2022-12-09 23:14:04,925:WARNING: 	 context_length: 77
+2022-12-09 23:14:04,925:WARNING: 	 vocab_size: 49408
+2022-12-09 23:14:04,925:WARNING: 	 transformer_width: 512
+2022-12-09 23:14:04,925:WARNING: 	 transformer_heads: 8
+2022-12-09 23:14:04,926:WARNING: 	 transformer_layers: 12
+2022-12-09 23:14:04,926:WARNING: 		 linear_patch: 2d
+2022-12-09 23:14:04,926:WARNING: 	 cut_top_layer: 0
+2022-12-09 23:14:06,907:WARNING: 	 sim_header: seqTransf
+2022-12-09 23:14:15,497:INFO: --------------------
+2022-12-09 23:14:15,497:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-09 23:14:15,497:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-09 23:14:15,497:WARNING: Using patch shift!
+2022-12-09 23:14:15,497:WARNING: Using patch shift!
+2022-12-09 23:14:18,288:INFO: ***** Running test *****
+2022-12-09 23:14:18,288:INFO:   Num examples = 1000
+2022-12-09 23:14:18,288:INFO:   Batch size = 10
+2022-12-09 23:14:18,288:INFO:   Num steps = 100
+2022-12-09 23:14:18,288:INFO: ***** Running val *****
+2022-12-09 23:14:18,289:INFO:   Num examples = 1000
+2022-12-09 23:14:36,033:INFO: ***** Running training *****
+2022-12-09 23:14:36,033:INFO:   Num examples = 180000
+2022-12-09 23:14:36,033:INFO:   Batch size = 120
+2022-12-09 23:14:36,033:INFO:   Num steps = 7500
+2022-12-09 23:19:57,361:INFO: Effective parameters:
+2022-12-09 23:19:57,361:INFO:   <<< batch_size: 120
+2022-12-09 23:19:57,362:INFO:   <<< batch_size_val: 10
+2022-12-09 23:19:57,362:INFO:   <<< best_ckpt_path: 
+2022-12-09 23:19:57,362:INFO:   <<< cache_dir: 
+2022-12-09 23:19:57,362:INFO:   <<< coef_lr: 0.001
+2022-12-09 23:19:57,362:INFO:   <<< cross_model: cross-base
+2022-12-09 23:19:57,362:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 23:19:57,362:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 23:19:57,362:INFO:   <<< datatype: msrvtt
+2022-12-09 23:19:57,362:INFO:   <<< do_eval: False
+2022-12-09 23:19:57,362:INFO:   <<< do_lower_case: False
+2022-12-09 23:19:57,362:INFO:   <<< do_pretrain: False
+2022-12-09 23:19:57,363:INFO:   <<< do_train: True
+2022-12-09 23:19:57,363:INFO:   <<< epochs: 5
+2022-12-09 23:19:57,363:INFO:   <<< eval_frame_order: 0
+2022-12-09 23:19:57,363:INFO:   <<< eval_in_train: True
+2022-12-09 23:19:57,363:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 23:19:57,363:INFO:   <<< feature_framerate: 1
+2022-12-09 23:19:57,363:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/all/
+2022-12-09 23:19:57,363:INFO:   <<< fp16: False
+2022-12-09 23:19:57,363:INFO:   <<< fp16_opt_level: O1
+2022-12-09 23:19:57,363:INFO:   <<< freeze_layer_num: 0
+2022-12-09 23:19:57,364:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 23:19:57,364:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 23:19:57,364:INFO:   <<< init_model: None
+2022-12-09 23:19:57,364:INFO:   <<< linear_patch: 2d
+2022-12-09 23:19:57,364:INFO:   <<< local_rank: 0
+2022-12-09 23:19:57,364:INFO:   <<< loose_type: True
+2022-12-09 23:19:57,364:INFO:   <<< lr: 0.0001
+2022-12-09 23:19:57,364:INFO:   <<< lr_decay: 0.9
+2022-12-09 23:19:57,364:INFO:   <<< margin: 0.1
+2022-12-09 23:19:57,364:INFO:   <<< max_frames: 12
+2022-12-09 23:19:57,365:INFO:   <<< max_words: 32
+2022-12-09 23:19:57,365:INFO:   <<< n_display: 50
+2022-12-09 23:19:57,365:INFO:   <<< n_gpu: 1
+2022-12-09 23:19:57,365:INFO:   <<< n_pair: 1
+2022-12-09 23:19:57,365:INFO:   <<< negative_weighting: 1
+2022-12-09 23:19:57,365:INFO:   <<< num_thread_reader: 1
+2022-12-09 23:19:57,365:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 23:19:57,365:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 23:19:57,365:INFO:   <<< rank: 0
+2022-12-09 23:19:57,365:INFO:   <<< sampled_use_mil: False
+2022-12-09 23:19:57,365:INFO:   <<< seed: 42
+2022-12-09 23:19:57,366:INFO:   <<< sim_header: seqTransf
+2022-12-09 23:19:57,366:INFO:   <<< slice_framepos: 2
+2022-12-09 23:19:57,366:INFO:   <<< task_type: retrieval
+2022-12-09 23:19:57,366:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 23:19:57,366:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 23:19:57,366:INFO:   <<< train_frame_order: 0
+2022-12-09 23:19:57,366:INFO:   <<< use_mil: False
+2022-12-09 23:19:57,366:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 23:19:57,366:INFO:   <<< video_dim: 1024
+2022-12-09 23:19:57,366:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 23:19:57,366:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 23:19:57,367:INFO:   <<< world_size: 1
+2022-12-09 23:19:57,367:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 23:19:58,221:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 23:19:58,222:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 23:19:58,222:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 23:19:58,222:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 23:19:58,222:WARNING: Test retrieval by loose type.
+2022-12-09 23:19:58,223:WARNING: 	 embed_dim: 512
+2022-12-09 23:19:58,223:WARNING: 	 image_resolution: 224
+2022-12-09 23:19:58,223:WARNING: 	 vision_layers: 12
+2022-12-09 23:19:58,223:WARNING: 	 vision_width: 768
+2022-12-09 23:19:58,223:WARNING: 	 vision_patch_size: 32
+2022-12-09 23:19:58,223:WARNING: 	 context_length: 77
+2022-12-09 23:19:58,223:WARNING: 	 vocab_size: 49408
+2022-12-09 23:19:58,223:WARNING: 	 transformer_width: 512
+2022-12-09 23:19:58,223:WARNING: 	 transformer_heads: 8
+2022-12-09 23:19:58,223:WARNING: 	 transformer_layers: 12
+2022-12-09 23:19:58,224:WARNING: 		 linear_patch: 2d
+2022-12-09 23:19:58,224:WARNING: 	 cut_top_layer: 0
+2022-12-09 23:20:00,221:WARNING: 	 sim_header: seqTransf
+2022-12-09 23:20:08,810:INFO: --------------------
+2022-12-09 23:20:08,810:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-09 23:20:08,810:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-09 23:20:08,811:WARNING: Using patch shift!
+2022-12-09 23:20:08,811:WARNING: Using patch shift!
+2022-12-09 23:20:11,607:INFO: ***** Running test *****
+2022-12-09 23:20:11,607:INFO:   Num examples = 1000
+2022-12-09 23:20:11,607:INFO:   Batch size = 10
+2022-12-09 23:20:11,607:INFO:   Num steps = 100
+2022-12-09 23:20:11,607:INFO: ***** Running val *****
+2022-12-09 23:20:11,607:INFO:   Num examples = 1000
+2022-12-09 23:20:29,327:INFO: ***** Running training *****
+2022-12-09 23:20:29,327:INFO:   Num examples = 180000
+2022-12-09 23:20:29,327:INFO:   Batch size = 120
+2022-12-09 23:20:29,328:INFO:   Num steps = 7500
+2022-12-09 23:22:33,000:INFO: Effective parameters:
+2022-12-09 23:22:33,000:INFO:   <<< batch_size: 64
+2022-12-09 23:22:33,000:INFO:   <<< batch_size_val: 10
+2022-12-09 23:22:33,000:INFO:   <<< best_ckpt_path: 
+2022-12-09 23:22:33,001:INFO:   <<< cache_dir: 
+2022-12-09 23:22:33,001:INFO:   <<< coef_lr: 0.001
+2022-12-09 23:22:33,001:INFO:   <<< cross_model: cross-base
+2022-12-09 23:22:33,001:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-09 23:22:33,001:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-09 23:22:33,001:INFO:   <<< datatype: msrvtt
+2022-12-09 23:22:33,001:INFO:   <<< do_eval: False
+2022-12-09 23:22:33,001:INFO:   <<< do_lower_case: False
+2022-12-09 23:22:33,001:INFO:   <<< do_pretrain: False
+2022-12-09 23:22:33,001:INFO:   <<< do_train: True
+2022-12-09 23:22:33,001:INFO:   <<< epochs: 5
+2022-12-09 23:22:33,002:INFO:   <<< eval_frame_order: 0
+2022-12-09 23:22:33,002:INFO:   <<< eval_in_train: True
+2022-12-09 23:22:33,002:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-09 23:22:33,002:INFO:   <<< feature_framerate: 1
+2022-12-09 23:22:33,002:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/all/
+2022-12-09 23:22:33,002:INFO:   <<< fp16: False
+2022-12-09 23:22:33,002:INFO:   <<< fp16_opt_level: O1
+2022-12-09 23:22:33,002:INFO:   <<< freeze_layer_num: 0
+2022-12-09 23:22:33,002:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-09 23:22:33,002:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 23:22:33,002:INFO:   <<< init_model: None
+2022-12-09 23:22:33,002:INFO:   <<< linear_patch: 2d
+2022-12-09 23:22:33,002:INFO:   <<< local_rank: 0
+2022-12-09 23:22:33,003:INFO:   <<< loose_type: True
+2022-12-09 23:22:33,003:INFO:   <<< lr: 0.0001
+2022-12-09 23:22:33,003:INFO:   <<< lr_decay: 0.9
+2022-12-09 23:22:33,003:INFO:   <<< margin: 0.1
+2022-12-09 23:22:33,003:INFO:   <<< max_frames: 12
+2022-12-09 23:22:33,003:INFO:   <<< max_words: 32
+2022-12-09 23:22:33,003:INFO:   <<< n_display: 50
+2022-12-09 23:22:33,003:INFO:   <<< n_gpu: 1
+2022-12-09 23:22:33,003:INFO:   <<< n_pair: 1
+2022-12-09 23:22:33,003:INFO:   <<< negative_weighting: 1
+2022-12-09 23:22:33,003:INFO:   <<< num_thread_reader: 1
+2022-12-09 23:22:33,004:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-09 23:22:33,004:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 23:22:33,004:INFO:   <<< rank: 0
+2022-12-09 23:22:33,004:INFO:   <<< sampled_use_mil: False
+2022-12-09 23:22:33,004:INFO:   <<< seed: 42
+2022-12-09 23:22:33,004:INFO:   <<< sim_header: seqTransf
+2022-12-09 23:22:33,004:INFO:   <<< slice_framepos: 2
+2022-12-09 23:22:33,004:INFO:   <<< task_type: retrieval
+2022-12-09 23:22:33,004:INFO:   <<< text_num_hidden_layers: 12
+2022-12-09 23:22:33,004:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-09 23:22:33,004:INFO:   <<< train_frame_order: 0
+2022-12-09 23:22:33,004:INFO:   <<< use_mil: False
+2022-12-09 23:22:33,005:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-09 23:22:33,005:INFO:   <<< video_dim: 1024
+2022-12-09 23:22:33,005:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-09 23:22:33,005:INFO:   <<< warmup_proportion: 0.1
+2022-12-09 23:22:33,005:INFO:   <<< world_size: 1
+2022-12-09 23:22:33,005:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 23:22:33,856:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-09 23:22:33,857:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-09 23:22:33,857:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-09 23:22:33,857:WARNING: Stage-One:True, Stage-Two:False
+2022-12-09 23:22:33,857:WARNING: Test retrieval by loose type.
+2022-12-09 23:22:33,858:WARNING: 	 embed_dim: 512
+2022-12-09 23:22:33,858:WARNING: 	 image_resolution: 224
+2022-12-09 23:22:33,858:WARNING: 	 vision_layers: 12
+2022-12-09 23:22:33,858:WARNING: 	 vision_width: 768
+2022-12-09 23:22:33,858:WARNING: 	 vision_patch_size: 32
+2022-12-09 23:22:33,858:WARNING: 	 context_length: 77
+2022-12-09 23:22:33,858:WARNING: 	 vocab_size: 49408
+2022-12-09 23:22:33,858:WARNING: 	 transformer_width: 512
+2022-12-09 23:22:33,858:WARNING: 	 transformer_heads: 8
+2022-12-09 23:22:33,858:WARNING: 	 transformer_layers: 12
+2022-12-09 23:22:33,859:WARNING: 		 linear_patch: 2d
+2022-12-09 23:22:33,859:WARNING: 	 cut_top_layer: 0
+2022-12-09 23:22:35,837:WARNING: 	 sim_header: seqTransf
+2022-12-09 23:22:44,403:INFO: --------------------
+2022-12-09 23:22:44,403:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-09 23:22:44,404:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-09 23:22:44,404:WARNING: Using patch shift!
+2022-12-09 23:22:44,404:WARNING: Using patch shift!
+2022-12-09 23:22:47,214:INFO: ***** Running test *****
+2022-12-09 23:22:47,214:INFO:   Num examples = 1000
+2022-12-09 23:22:47,214:INFO:   Batch size = 10
+2022-12-09 23:22:47,214:INFO:   Num steps = 100
+2022-12-09 23:22:47,214:INFO: ***** Running val *****
+2022-12-09 23:22:47,214:INFO:   Num examples = 1000
+2022-12-09 23:23:04,952:INFO: ***** Running training *****
+2022-12-09 23:23:04,953:INFO:   Num examples = 180000
+2022-12-09 23:23:04,953:INFO:   Batch size = 64
+2022-12-09 23:23:04,953:INFO:   Num steps = 14060
+2022-12-10 00:00:18,203:INFO: Effective parameters:
+2022-12-10 00:00:18,205:INFO:   <<< batch_size: 64
+2022-12-10 00:00:18,205:INFO:   <<< batch_size_val: 10
+2022-12-10 00:00:18,205:INFO:   <<< best_ckpt_path: 
+2022-12-10 00:00:18,205:INFO:   <<< cache_dir: 
+2022-12-10 00:00:18,205:INFO:   <<< coef_lr: 0.001
+2022-12-10 00:00:18,205:INFO:   <<< cross_model: cross-base
+2022-12-10 00:00:18,205:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-10 00:00:18,205:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-10 00:00:18,205:INFO:   <<< datatype: msrvtt
+2022-12-10 00:00:18,205:INFO:   <<< do_eval: False
+2022-12-10 00:00:18,205:INFO:   <<< do_lower_case: False
+2022-12-10 00:00:18,205:INFO:   <<< do_pretrain: False
+2022-12-10 00:00:18,205:INFO:   <<< do_train: True
+2022-12-10 00:00:18,205:INFO:   <<< epochs: 5
+2022-12-10 00:00:18,205:INFO:   <<< eval_frame_order: 0
+2022-12-10 00:00:18,205:INFO:   <<< eval_in_train: True
+2022-12-10 00:00:18,205:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-10 00:00:18,206:INFO:   <<< feature_framerate: 1
+2022-12-10 00:00:18,206:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/all/
+2022-12-10 00:00:18,206:INFO:   <<< fp16: False
+2022-12-10 00:00:18,206:INFO:   <<< fp16_opt_level: O1
+2022-12-10 00:00:18,206:INFO:   <<< freeze_layer_num: 0
+2022-12-10 00:00:18,206:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-10 00:00:18,206:INFO:   <<< hard_negative_rate: 0.5
+2022-12-10 00:00:18,206:INFO:   <<< init_model: None
+2022-12-10 00:00:18,206:INFO:   <<< linear_patch: 2d
+2022-12-10 00:00:18,206:INFO:   <<< local_rank: 0
+2022-12-10 00:00:18,206:INFO:   <<< loose_type: True
+2022-12-10 00:00:18,206:INFO:   <<< lr: 0.0001
+2022-12-10 00:00:18,206:INFO:   <<< lr_decay: 0.9
+2022-12-10 00:00:18,206:INFO:   <<< margin: 0.1
+2022-12-10 00:00:18,206:INFO:   <<< max_frames: 12
+2022-12-10 00:00:18,206:INFO:   <<< max_words: 32
+2022-12-10 00:00:18,206:INFO:   <<< n_display: 50
+2022-12-10 00:00:18,206:INFO:   <<< n_gpu: 1
+2022-12-10 00:00:18,206:INFO:   <<< n_pair: 1
+2022-12-10 00:00:18,206:INFO:   <<< negative_weighting: 1
+2022-12-10 00:00:18,206:INFO:   <<< num_thread_reader: 1
+2022-12-10 00:00:18,206:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-10 00:00:18,206:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-10 00:00:18,206:INFO:   <<< rank: 0
+2022-12-10 00:00:18,207:INFO:   <<< sampled_use_mil: False
+2022-12-10 00:00:18,207:INFO:   <<< seed: 42
+2022-12-10 00:00:18,207:INFO:   <<< sim_header: seqTransf
+2022-12-10 00:00:18,207:INFO:   <<< slice_framepos: 2
+2022-12-10 00:00:18,207:INFO:   <<< task_type: retrieval
+2022-12-10 00:00:18,207:INFO:   <<< text_num_hidden_layers: 12
+2022-12-10 00:00:18,207:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-10 00:00:18,207:INFO:   <<< train_frame_order: 0
+2022-12-10 00:00:18,207:INFO:   <<< use_mil: False
+2022-12-10 00:00:18,207:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-10 00:00:18,207:INFO:   <<< video_dim: 1024
+2022-12-10 00:00:18,207:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-10 00:00:18,207:INFO:   <<< warmup_proportion: 0.1
+2022-12-10 00:00:18,207:INFO:   <<< world_size: 1
+2022-12-10 00:00:18,207:INFO: device: cuda:0 n_gpu: 1
+2022-12-10 00:00:20,480:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-10 00:00:20,482:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-10 00:00:20,482:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-10 00:00:20,482:WARNING: Stage-One:True, Stage-Two:False
+2022-12-10 00:00:20,482:WARNING: Test retrieval by loose type.
+2022-12-10 00:00:20,483:WARNING: 	 embed_dim: 512
+2022-12-10 00:00:20,483:WARNING: 	 image_resolution: 224
+2022-12-10 00:00:20,483:WARNING: 	 vision_layers: 12
+2022-12-10 00:00:20,483:WARNING: 	 vision_width: 768
+2022-12-10 00:00:20,483:WARNING: 	 vision_patch_size: 32
+2022-12-10 00:00:20,483:WARNING: 	 context_length: 77
+2022-12-10 00:00:20,483:WARNING: 	 vocab_size: 49408
+2022-12-10 00:00:20,483:WARNING: 	 transformer_width: 512
+2022-12-10 00:00:20,483:WARNING: 	 transformer_heads: 8
+2022-12-10 00:00:20,483:WARNING: 	 transformer_layers: 12
+2022-12-10 00:00:20,483:WARNING: 		 linear_patch: 2d
+2022-12-10 00:00:20,483:WARNING: 	 cut_top_layer: 0
+2022-12-10 00:00:22,168:WARNING: 	 sim_header: seqTransf
+2022-12-10 00:00:29,974:INFO: --------------------
+2022-12-10 00:00:29,974:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-10 00:00:29,974:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-10 00:00:29,975:WARNING: Using patch shift!
+2022-12-10 00:00:29,975:WARNING: Using patch shift!
+2022-12-10 00:00:38,700:INFO: ***** Running test *****
+2022-12-10 00:00:38,701:INFO:   Num examples = 1000
+2022-12-10 00:00:38,701:INFO:   Batch size = 10
+2022-12-10 00:00:38,701:INFO:   Num steps = 100
+2022-12-10 00:00:38,701:INFO: ***** Running val *****
+2022-12-10 00:00:38,701:INFO:   Num examples = 1000
+2022-12-10 00:00:55,314:INFO: ***** Running training *****
+2022-12-10 00:00:55,315:INFO:   Num examples = 180000
+2022-12-10 00:00:55,315:INFO:   Batch size = 64
+2022-12-10 00:00:55,315:INFO:   Num steps = 14060
+2022-12-10 00:05:57,802:INFO: Effective parameters:
+2022-12-10 00:05:57,803:INFO:   <<< batch_size: 64
+2022-12-10 00:05:57,803:INFO:   <<< batch_size_val: 10
+2022-12-10 00:05:57,803:INFO:   <<< best_ckpt_path: 
+2022-12-10 00:05:57,803:INFO:   <<< cache_dir: 
+2022-12-10 00:05:57,803:INFO:   <<< coef_lr: 0.001
+2022-12-10 00:05:57,803:INFO:   <<< cross_model: cross-base
+2022-12-10 00:05:57,803:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-10 00:05:57,803:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-10 00:05:57,803:INFO:   <<< datatype: msrvtt
+2022-12-10 00:05:57,804:INFO:   <<< do_eval: False
+2022-12-10 00:05:57,804:INFO:   <<< do_lower_case: False
+2022-12-10 00:05:57,804:INFO:   <<< do_pretrain: False
+2022-12-10 00:05:57,804:INFO:   <<< do_train: True
+2022-12-10 00:05:57,804:INFO:   <<< epochs: 5
+2022-12-10 00:05:57,804:INFO:   <<< eval_frame_order: 0
+2022-12-10 00:05:57,804:INFO:   <<< eval_in_train: True
+2022-12-10 00:05:57,804:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-10 00:05:57,804:INFO:   <<< feature_framerate: 1
+2022-12-10 00:05:57,804:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/all/
+2022-12-10 00:05:57,804:INFO:   <<< fp16: False
+2022-12-10 00:05:57,804:INFO:   <<< fp16_opt_level: O1
+2022-12-10 00:05:57,804:INFO:   <<< freeze_layer_num: 0
+2022-12-10 00:05:57,804:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-10 00:05:57,804:INFO:   <<< hard_negative_rate: 0.5
+2022-12-10 00:05:57,804:INFO:   <<< init_model: None
+2022-12-10 00:05:57,804:INFO:   <<< linear_patch: 2d
+2022-12-10 00:05:57,804:INFO:   <<< local_rank: 0
+2022-12-10 00:05:57,804:INFO:   <<< loose_type: True
+2022-12-10 00:05:57,804:INFO:   <<< lr: 0.0001
+2022-12-10 00:05:57,804:INFO:   <<< lr_decay: 0.9
+2022-12-10 00:05:57,804:INFO:   <<< margin: 0.1
+2022-12-10 00:05:57,804:INFO:   <<< max_frames: 12
+2022-12-10 00:05:57,805:INFO:   <<< max_words: 32
+2022-12-10 00:05:57,805:INFO:   <<< n_display: 50
+2022-12-10 00:05:57,805:INFO:   <<< n_gpu: 1
+2022-12-10 00:05:57,805:INFO:   <<< n_pair: 1
+2022-12-10 00:05:57,805:INFO:   <<< negative_weighting: 1
+2022-12-10 00:05:57,805:INFO:   <<< num_thread_reader: 1
+2022-12-10 00:05:57,805:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-10 00:05:57,805:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-10 00:05:57,805:INFO:   <<< rank: 0
+2022-12-10 00:05:57,805:INFO:   <<< sampled_use_mil: False
+2022-12-10 00:05:57,805:INFO:   <<< seed: 42
+2022-12-10 00:05:57,805:INFO:   <<< sim_header: seqTransf
+2022-12-10 00:05:57,805:INFO:   <<< slice_framepos: 2
+2022-12-10 00:05:57,805:INFO:   <<< task_type: retrieval
+2022-12-10 00:05:57,805:INFO:   <<< text_num_hidden_layers: 12
+2022-12-10 00:05:57,805:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-10 00:05:57,805:INFO:   <<< train_frame_order: 0
+2022-12-10 00:05:57,805:INFO:   <<< use_mil: False
+2022-12-10 00:05:57,805:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-10 00:05:57,805:INFO:   <<< video_dim: 1024
+2022-12-10 00:05:57,806:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-10 00:05:57,806:INFO:   <<< warmup_proportion: 0.1
+2022-12-10 00:05:57,806:INFO:   <<< world_size: 1
+2022-12-10 00:05:57,806:INFO: device: cuda:0 n_gpu: 1
+2022-12-10 00:05:59,955:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-10 00:05:59,958:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-10 00:05:59,958:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-10 00:05:59,958:WARNING: Stage-One:True, Stage-Two:False
+2022-12-10 00:05:59,958:WARNING: Test retrieval by loose type.
+2022-12-10 00:05:59,959:WARNING: 	 embed_dim: 512
+2022-12-10 00:05:59,959:WARNING: 	 image_resolution: 224
+2022-12-10 00:05:59,959:WARNING: 	 vision_layers: 12
+2022-12-10 00:05:59,959:WARNING: 	 vision_width: 768
+2022-12-10 00:05:59,959:WARNING: 	 vision_patch_size: 32
+2022-12-10 00:05:59,959:WARNING: 	 context_length: 77
+2022-12-10 00:05:59,959:WARNING: 	 vocab_size: 49408
+2022-12-10 00:05:59,959:WARNING: 	 transformer_width: 512
+2022-12-10 00:05:59,959:WARNING: 	 transformer_heads: 8
+2022-12-10 00:05:59,959:WARNING: 	 transformer_layers: 12
+2022-12-10 00:05:59,959:WARNING: 		 linear_patch: 2d
+2022-12-10 00:05:59,959:WARNING: 	 cut_top_layer: 0
+2022-12-10 00:06:01,170:WARNING: 	 sim_header: seqTransf
+2022-12-10 00:06:07,382:INFO: --------------------
+2022-12-10 00:06:07,382:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-10 00:06:07,382:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-10 00:06:07,382:WARNING: Using patch shift!
+2022-12-10 00:06:07,383:WARNING: Using patch shift!
+2022-12-10 00:06:16,067:INFO: ***** Running test *****
+2022-12-10 00:06:16,067:INFO:   Num examples = 1000
+2022-12-10 00:06:16,067:INFO:   Batch size = 10
+2022-12-10 00:06:16,067:INFO:   Num steps = 100
+2022-12-10 00:06:16,067:INFO: ***** Running val *****
+2022-12-10 00:06:16,067:INFO:   Num examples = 1000
+2022-12-10 00:06:27,802:INFO: ***** Running training *****
+2022-12-10 00:06:27,803:INFO:   Num examples = 180000
+2022-12-10 00:06:27,803:INFO:   Batch size = 64
+2022-12-10 00:06:27,803:INFO:   Num steps = 14060
+2022-12-10 00:08:03,662:INFO: Effective parameters:
+2022-12-10 00:08:03,663:INFO:   <<< batch_size: 32
+2022-12-10 00:08:03,663:INFO:   <<< batch_size_val: 10
+2022-12-10 00:08:03,663:INFO:   <<< best_ckpt_path: 
+2022-12-10 00:08:03,663:INFO:   <<< cache_dir: 
+2022-12-10 00:08:03,663:INFO:   <<< coef_lr: 0.001
+2022-12-10 00:08:03,663:INFO:   <<< cross_model: cross-base
+2022-12-10 00:08:03,663:INFO:   <<< cross_num_hidden_layers: 4
+2022-12-10 00:08:03,663:INFO:   <<< data_path: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_data.json
+2022-12-10 00:08:03,663:INFO:   <<< datatype: msrvtt
+2022-12-10 00:08:03,663:INFO:   <<< do_eval: False
+2022-12-10 00:08:03,663:INFO:   <<< do_lower_case: False
+2022-12-10 00:08:03,663:INFO:   <<< do_pretrain: False
+2022-12-10 00:08:03,663:INFO:   <<< do_train: True
+2022-12-10 00:08:03,663:INFO:   <<< epochs: 5
+2022-12-10 00:08:03,663:INFO:   <<< eval_frame_order: 0
+2022-12-10 00:08:03,663:INFO:   <<< eval_in_train: True
+2022-12-10 00:08:03,663:INFO:   <<< expand_msrvtt_sentences: True
+2022-12-10 00:08:03,663:INFO:   <<< feature_framerate: 1
+2022-12-10 00:08:03,663:INFO:   <<< features_path: /home/ubuntu/ts/ts2_net-master/data/videos/all/
+2022-12-10 00:08:03,663:INFO:   <<< fp16: False
+2022-12-10 00:08:03,663:INFO:   <<< fp16_opt_level: O1
+2022-12-10 00:08:03,664:INFO:   <<< freeze_layer_num: 0
+2022-12-10 00:08:03,664:INFO:   <<< gradient_accumulation_steps: 1
+2022-12-10 00:08:03,664:INFO:   <<< hard_negative_rate: 0.5
+2022-12-10 00:08:03,664:INFO:   <<< init_model: None
+2022-12-10 00:08:03,664:INFO:   <<< linear_patch: 2d
+2022-12-10 00:08:03,664:INFO:   <<< local_rank: 0
+2022-12-10 00:08:03,664:INFO:   <<< loose_type: True
+2022-12-10 00:08:03,664:INFO:   <<< lr: 0.0001
+2022-12-10 00:08:03,664:INFO:   <<< lr_decay: 0.9
+2022-12-10 00:08:03,664:INFO:   <<< margin: 0.1
+2022-12-10 00:08:03,664:INFO:   <<< max_frames: 12
+2022-12-10 00:08:03,664:INFO:   <<< max_words: 32
+2022-12-10 00:08:03,664:INFO:   <<< n_display: 50
+2022-12-10 00:08:03,664:INFO:   <<< n_gpu: 1
+2022-12-10 00:08:03,664:INFO:   <<< n_pair: 1
+2022-12-10 00:08:03,664:INFO:   <<< negative_weighting: 1
+2022-12-10 00:08:03,664:INFO:   <<< num_thread_reader: 1
+2022-12-10 00:08:03,664:INFO:   <<< output_dir: ckpts/msrvtt
+2022-12-10 00:08:03,664:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-10 00:08:03,664:INFO:   <<< rank: 0
+2022-12-10 00:08:03,664:INFO:   <<< sampled_use_mil: False
+2022-12-10 00:08:03,664:INFO:   <<< seed: 42
+2022-12-10 00:08:03,665:INFO:   <<< sim_header: seqTransf
+2022-12-10 00:08:03,665:INFO:   <<< slice_framepos: 2
+2022-12-10 00:08:03,665:INFO:   <<< task_type: retrieval
+2022-12-10 00:08:03,665:INFO:   <<< text_num_hidden_layers: 12
+2022-12-10 00:08:03,665:INFO:   <<< train_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_train.9k.csv
+2022-12-10 00:08:03,665:INFO:   <<< train_frame_order: 0
+2022-12-10 00:08:03,665:INFO:   <<< use_mil: False
+2022-12-10 00:08:03,665:INFO:   <<< val_csv: /home/ubuntu/ts/ts2_net-master/data//MSRVTT_JSFUSION_test.csv
+2022-12-10 00:08:03,665:INFO:   <<< video_dim: 1024
+2022-12-10 00:08:03,665:INFO:   <<< visual_num_hidden_layers: 12
+2022-12-10 00:08:03,665:INFO:   <<< warmup_proportion: 0.1
+2022-12-10 00:08:03,665:INFO:   <<< world_size: 1
+2022-12-10 00:08:03,665:INFO: device: cuda:0 n_gpu: 1
+2022-12-10 00:08:04,215:INFO: loading archive file /home/ubuntu/ts/ts2_net-master/modules/cross-base
+2022-12-10 00:08:04,216:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 128,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 4,
+  "type_vocab_size": 2,
+  "vocab_size": 512
+}
+
+2022-12-10 00:08:04,216:INFO: Weight doesn't exsits. /home/ubuntu/ts/ts2_net-master/modules/cross-base/cross_pytorch_model.bin
+2022-12-10 00:08:04,216:WARNING: Stage-One:True, Stage-Two:False
+2022-12-10 00:08:04,216:WARNING: Test retrieval by loose type.
+2022-12-10 00:08:04,216:WARNING: 	 embed_dim: 512
+2022-12-10 00:08:04,216:WARNING: 	 image_resolution: 224
+2022-12-10 00:08:04,216:WARNING: 	 vision_layers: 12
+2022-12-10 00:08:04,216:WARNING: 	 vision_width: 768
+2022-12-10 00:08:04,216:WARNING: 	 vision_patch_size: 32
+2022-12-10 00:08:04,217:WARNING: 	 context_length: 77
+2022-12-10 00:08:04,217:WARNING: 	 vocab_size: 49408
+2022-12-10 00:08:04,217:WARNING: 	 transformer_width: 512
+2022-12-10 00:08:04,217:WARNING: 	 transformer_heads: 8
+2022-12-10 00:08:04,217:WARNING: 	 transformer_layers: 12
+2022-12-10 00:08:04,217:WARNING: 		 linear_patch: 2d
+2022-12-10 00:08:04,217:WARNING: 	 cut_top_layer: 0
+2022-12-10 00:08:05,424:WARNING: 	 sim_header: seqTransf
+2022-12-10 00:08:11,661:INFO: --------------------
+2022-12-10 00:08:11,662:INFO: Weights of CLIP4Clip not initialized from pretrained model: 
+   visual_prompt_encoder.positional_embedding
+   visual_prompt_encoder.conv1.weight
+   visual_prompt_encoder.layer_norm.weight
+   visual_prompt_encoder.layer_norm.bias
+   visual_token_selector.score_predictor.in_conv.0.weight
+   visual_token_selector.score_predictor.in_conv.0.bias
+   visual_token_selector.score_predictor.in_conv.1.weight
+   visual_token_selector.score_predictor.out_conv.0.weight
+   visual_token_selector.score_predictor.out_conv.2.weight
+   text_token_selector.score_predictor.in_conv.0.weight
+   text_token_selector.score_predictor.in_conv.0.bias
+   text_token_selector.score_predictor.in_conv.1.weight
+   text_token_selector.score_predictor.in_conv.1.bias
+   text_token_selector.score_predictor.out_conv.0.weight
+   text_token_selector.score_predictor.out_conv.2.weight
+2022-12-10 00:08:11,663:INFO: Weights from pretrained model not used in CLIP4Clip: 
+   clip.input_resolution
+   clip.context_length
+   clip.vocab_size
+2022-12-10 00:08:11,663:WARNING: Using patch shift!
+2022-12-10 00:08:11,663:WARNING: Using patch shift!
+2022-12-10 00:08:15,028:INFO: ***** Running test *****
+2022-12-10 00:08:15,028:INFO:   Num examples = 1000
+2022-12-10 00:08:15,028:INFO:   Batch size = 10
+2022-12-10 00:08:15,028:INFO:   Num steps = 100
+2022-12-10 00:08:15,028:INFO: ***** Running val *****
+2022-12-10 00:08:15,028:INFO:   Num examples = 1000
+2022-12-10 00:08:26,715:INFO: ***** Running training *****
+2022-12-10 00:08:26,715:INFO:   Num examples = 180000
+2022-12-10 00:08:26,715:INFO:   Batch size = 32
+2022-12-10 00:08:26,715:INFO:   Num steps = 28125
+2022-12-10 00:17:53,117:INFO: Epoch: 1/5, Step: 50/5625, Lr: 0.000000002-0.000001778, Loss: 0.746627, Time/step: 11.328015
+2022-12-10 00:27:14,783:INFO: Epoch: 1/5, Step: 100/5625, Lr: 0.000000004-0.000003556, Loss: 0.962061, Time/step: 11.233328
+2022-12-10 00:36:37,675:INFO: Epoch: 1/5, Step: 150/5625, Lr: 0.000000005-0.000005333, Loss: 1.253844, Time/step: 11.257830
+2022-12-10 00:46:16,878:INFO: Epoch: 1/5, Step: 200/5625, Lr: 0.000000007-0.000007111, Loss: 0.569585, Time/step: 11.584050
+2022-12-10 00:55:39,832:INFO: Epoch: 1/5, Step: 250/5625, Lr: 0.000000009-0.000008889, Loss: 0.893795, Time/step: 11.259087
+2022-12-10 01:05:14,769:INFO: Epoch: 1/5, Step: 300/5625, Lr: 0.000000011-0.000010667, Loss: 0.992746, Time/step: 11.498740
+2022-12-10 01:14:41,129:INFO: Epoch: 1/5, Step: 350/5625, Lr: 0.000000012-0.000012444, Loss: 0.424956, Time/step: 11.327196
+2022-12-10 01:24:06,530:INFO: Epoch: 1/5, Step: 400/5625, Lr: 0.000000014-0.000014222, Loss: 0.699461, Time/step: 11.308006
+2022-12-10 01:33:31,321:INFO: Epoch: 1/5, Step: 450/5625, Lr: 0.000000016-0.000016000, Loss: 0.431610, Time/step: 11.295821
+2022-12-10 01:43:09,597:INFO: Epoch: 1/5, Step: 500/5625, Lr: 0.000000018-0.000017778, Loss: 0.674557, Time/step: 11.565512
+2022-12-10 01:52:36,965:INFO: Epoch: 1/5, Step: 550/5625, Lr: 0.000000020-0.000019556, Loss: 0.276002, Time/step: 11.347344
+2022-12-10 02:02:04,789:INFO: Epoch: 1/5, Step: 600/5625, Lr: 0.000000021-0.000021333, Loss: 0.552208, Time/step: 11.356485
+2022-12-10 02:11:24,247:INFO: Epoch: 1/5, Step: 650/5625, Lr: 0.000000023-0.000023111, Loss: 0.766831, Time/step: 11.189152
+2022-12-10 02:20:43,397:INFO: Epoch: 1/5, Step: 700/5625, Lr: 0.000000025-0.000024889, Loss: 0.243484, Time/step: 11.182991
+2022-12-10 02:30:06,958:INFO: Epoch: 1/5, Step: 750/5625, Lr: 0.000000027-0.000026667, Loss: 0.373532, Time/step: 11.271212
+2022-12-10 02:39:43,978:INFO: Epoch: 1/5, Step: 800/5625, Lr: 0.000000028-0.000028444, Loss: 0.468493, Time/step: 11.540408
+2022-12-10 02:49:09,855:INFO: Epoch: 1/5, Step: 850/5625, Lr: 0.000000030-0.000030222, Loss: 0.823235, Time/step: 11.317525
+2022-12-10 02:58:39,600:INFO: Epoch: 1/5, Step: 900/5625, Lr: 0.000000032-0.000032000, Loss: 0.493119, Time/step: 11.394896
+2022-12-10 03:08:08,451:INFO: Epoch: 1/5, Step: 950/5625, Lr: 0.000000034-0.000033778, Loss: 0.437958, Time/step: 11.377019
+2022-12-10 03:17:42,058:INFO: Epoch: 1/5, Step: 1000/5625, Lr: 0.000000036-0.000035556, Loss: 0.736394, Time/step: 11.472137
+2022-12-10 03:27:17,878:INFO: Epoch: 1/5, Step: 1050/5625, Lr: 0.000000037-0.000037333, Loss: 0.962551, Time/step: 11.516391
+2022-12-10 03:36:42,804:INFO: Epoch: 1/5, Step: 1100/5625, Lr: 0.000000039-0.000039111, Loss: 0.282997, Time/step: 11.298513
+2022-12-10 03:46:16,904:INFO: Epoch: 1/5, Step: 1150/5625, Lr: 0.000000041-0.000040889, Loss: 0.390310, Time/step: 11.481997
+2022-12-10 03:55:47,068:INFO: Epoch: 1/5, Step: 1200/5625, Lr: 0.000000043-0.000042667, Loss: 0.551685, Time/step: 11.403285
+2022-12-10 04:05:15,402:INFO: Epoch: 1/5, Step: 1250/5625, Lr: 0.000000044-0.000044444, Loss: 0.212823, Time/step: 11.366666
+2022-12-10 04:14:27,820:INFO: Epoch: 1/5, Step: 1300/5625, Lr: 0.000000046-0.000046222, Loss: 0.480271, Time/step: 11.048358
+2022-12-10 04:24:14,593:INFO: Epoch: 1/5, Step: 1350/5625, Lr: 0.000000048-0.000048000, Loss: 0.345922, Time/step: 11.735448
+2022-12-10 04:33:49,842:INFO: Epoch: 1/5, Step: 1400/5625, Lr: 0.000000050-0.000049778, Loss: 0.581076, Time/step: 11.504989
+2022-12-10 04:43:07,171:INFO: Epoch: 1/5, Step: 1450/5625, Lr: 0.000000052-0.000051556, Loss: 0.574978, Time/step: 11.146572
+2022-12-10 04:52:43,646:INFO: Epoch: 1/5, Step: 1500/5625, Lr: 0.000000053-0.000053333, Loss: 0.308177, Time/step: 11.529488
+2022-12-10 05:02:00,520:INFO: Epoch: 1/5, Step: 1550/5625, Lr: 0.000000055-0.000055111, Loss: 0.525531, Time/step: 11.137478
+2022-12-10 05:11:36,594:INFO: Epoch: 1/5, Step: 1600/5625, Lr: 0.000000057-0.000056889, Loss: 0.272434, Time/step: 11.521458
+2022-12-10 05:21:08,900:INFO: Epoch: 1/5, Step: 1650/5625, Lr: 0.000000059-0.000058667, Loss: 0.211756, Time/step: 11.446124
+2022-12-10 05:30:34,518:INFO: Epoch: 1/5, Step: 1700/5625, Lr: 0.000000060-0.000060444, Loss: 0.274937, Time/step: 11.312362
+2022-12-10 05:39:51,305:INFO: Epoch: 1/5, Step: 1750/5625, Lr: 0.000000062-0.000062222, Loss: 0.326245, Time/step: 11.135725
+2022-12-10 05:49:21,255:INFO: Epoch: 1/5, Step: 1800/5625, Lr: 0.000000064-0.000064000, Loss: 0.182920, Time/step: 11.399002
+2022-12-10 05:58:41,827:INFO: Epoch: 1/5, Step: 1850/5625, Lr: 0.000000066-0.000065778, Loss: 0.142508, Time/step: 11.211423
+2022-12-10 06:08:13,710:INFO: Epoch: 1/5, Step: 1900/5625, Lr: 0.000000068-0.000067556, Loss: 0.585975, Time/step: 11.437668
+2022-12-10 06:17:50,523:INFO: Epoch: 1/5, Step: 1950/5625, Lr: 0.000000069-0.000069333, Loss: 0.048866, Time/step: 11.536250
+2022-12-10 06:27:22,567:INFO: Epoch: 1/5, Step: 2000/5625, Lr: 0.000000071-0.000071111, Loss: 0.650994, Time/step: 11.440878
+2022-12-10 06:37:06,777:INFO: Epoch: 1/5, Step: 2050/5625, Lr: 0.000000073-0.000072889, Loss: 0.423509, Time/step: 11.684186
+2022-12-10 06:46:42,138:INFO: Epoch: 1/5, Step: 2100/5625, Lr: 0.000000075-0.000074667, Loss: 0.470390, Time/step: 11.507216
+2022-12-10 06:56:06,350:INFO: Epoch: 1/5, Step: 2150/5625, Lr: 0.000000076-0.000076444, Loss: 0.323407, Time/step: 11.284248
+2022-12-10 07:05:41,683:INFO: Epoch: 1/5, Step: 2200/5625, Lr: 0.000000078-0.000078222, Loss: 0.273609, Time/step: 11.506644
+2022-12-10 07:15:06,500:INFO: Epoch: 1/5, Step: 2250/5625, Lr: 0.000000080-0.000080000, Loss: 0.250724, Time/step: 11.296343
